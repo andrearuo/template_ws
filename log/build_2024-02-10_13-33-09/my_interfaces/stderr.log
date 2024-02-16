@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/home/user/template_ws/build/my_interfaces/ament_cmake_python/my_interfaces/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/home/user/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/user/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/user/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+    def _initialize_master_working_set():
+  File "/home/user/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+    f(*args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3268, in _initialize_master_working_set
+    tuple(
+  File "/home/user/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3269, in <genexpr>
+    dist.activate(replace=False)
+  File "/home/user/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2781, in activate
+    for pkg in self._get_metadata('namespace_packages.txt'):
+  File "/home/user/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2764, in _get_metadata
+    if self.has_metadata(name):
+  File "/home/user/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1401, in has_metadata
+    return self._has(path)
+  File "/home/user/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1599, in _has
+    return os.path.exists(path)
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_my_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_my_interfaces_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_my_interfaces_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

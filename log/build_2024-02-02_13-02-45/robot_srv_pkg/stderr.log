@@ -1,0 +1,46 @@
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:64:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kmy_interfaces::srv[m[K’
+   13 | void serviceFunction(const std::shared_ptr<my_interfaces::srv::[01;31m[KBool[m[K::Request> request, std::shared_ptr<my_interfaces::srv::Bool::Response> response)
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 | void serviceFunction(const std::shared_ptr<my_interfaces::srv::Bool::Request[01;31m[K>[m[K request, std::shared_ptr<my_interfaces::srv::Bool::Response> response)
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:64:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kmy_interfaces::srv[m[K’
+   13 | void serviceFunction(const std::shared_ptr<my_interfaces::srv::[01;31m[KBool[m[K::Request> request, std::shared_ptr<my_interfaces::srv::Bool::Response> response)
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 | void serviceFunction(const std::shared_ptr<my_interfaces::srv::Bool::Request[01;31m[K>[m[K request, std::shared_ptr<my_interfaces::srv::Bool::Response> response)
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:64:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kmy_interfaces::srv[m[K’
+   13 | void serviceFunction(const std::shared_ptr<my_interfaces::srv::[01;31m[KBool[m[K::Request> request, std::shared_ptr<my_interfaces::srv::Bool::Response> response)
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 | void serviceFunction(const std::shared_ptr<my_interfaces::srv::Bool::Request[01;31m[K>[m[K request, std::shared_ptr<my_interfaces::srv::Bool::Response> response)
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:28:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   13 | void serviceFunction(const [01;31m[Kstd[m[K::shared_ptr<my_interfaces::srv::Bool::Request> request, std::shared_ptr<my_interfaces::srv::Bool::Response> response)
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:64:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kmy_interfaces::srv[m[K’
+   13 | void serviceFunction(const std::shared_ptr<my_interfaces::srv::[01;31m[KBool[m[K::Request> request, std::shared_ptr<my_interfaces::srv::Bool::Response> response)
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KserviceFunction[m[K’ declared void
+   13 | void [01;31m[KserviceFunction[m[K(const std::shared_ptr<my_interfaces::srv::Bool::Request> request, std::shared_ptr<my_interfaces::srv::Bool::Response> response)
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   13 | void serviceFunction([01;31m[Kconst[m[K std::shared_ptr<my_interfaces::srv::Bool::Request> request, std::shared_ptr<my_interfaces::srv::Bool::Response> response)
+      |                      [01;31m[K^~~~~[m[K
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:124:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kmy_interfaces::srv[m[K’
+   13 | :shared_ptr<my_interfaces::srv::Bool::Request> request, std::shared_ptr<my_interfaces::srv::[01;31m[KBool[m[K::Response> response)
+      |                                                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:13:138:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 | _interfaces::srv::Bool::Request> request, std::shared_ptr<my_interfaces::srv::Bool::Response[01;31m[K>[m[K response)
+      |                                                                                             [01;31m[K^[m[K
+
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/user/template_ws/src/robot_srv_pkg/src/robot_srv_node.cpp:36:139:[m[K [01;31m[Kerror: [m[K‘[01m[KserviceFunction[m[K’ was not declared in this scope
+   36 | Ints>::SharedPtr service = node->create_service<my_interfaces::srv::AddThreeInts>("bool",  &[01;31m[KserviceFunction[m[K);
+      |                                                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/robot_srv_node.dir/build.make:76: CMakeFiles/robot_srv_node.dir/src/robot_srv_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_srv_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

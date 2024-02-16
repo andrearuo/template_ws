@@ -1,0 +1,12 @@
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/uninstall.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/robot_srv_pkg_uninstall.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/robot_srv_node.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/robot_srv_server_node.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/robot_srv_client_node.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/test.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/edit_cache.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/rebuild_cache.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/list_install_components.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/install.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/install/local.dir
+/home/user/template_ws/build/robot_srv_pkg/CMakeFiles/install/strip.dir

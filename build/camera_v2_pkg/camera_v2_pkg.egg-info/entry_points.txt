@@ -1,0 +1,3 @@
+[console_scripts]
+camera_v2_node = camera_v2_pkg.camera_v2_node:main
+

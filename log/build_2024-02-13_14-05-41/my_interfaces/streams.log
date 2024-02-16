@@ -1,0 +1,363 @@
+[0.104s] Invoking command in '/home/user/template_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/template_ws/install/camera_v2_pkg:/home/user/template_ws/install/camera_srv_pkg:/home/user/template_ws/install/camera_pkg:/home/user/ros2_humble/install/rqt_bag_plugins:/home/user/ros2_humble/install/rqt_bag:/home/user/ros2_humble/install/ros2bag:/home/user/ros2_humble/install/tracetools_test:/home/user/ros2_humble/install/tracetools_launch:/home/user/ros2_humble/install/topic_monitor:/home/user/ros2_humble/install/tf2_tools:/home/user/ros2_humble/install/examples_tf2_py:/home/user/ros2_humble/install/tf2_ros_py:/home/user/ros2_humble/install/sros2:/home/user/ros2_humble/install/rqt_topic:/home/user/ros2_humble/install/rqt_srv:/home/user/ros2_humble/install/rqt_shell:/home/user/ros2_humble/install/rqt_service_caller:/home/user/ros2_humble/install/rqt_reconfigure:/home/user/ros2_humble/install/rqt_py_console:/home/user/ros2_humble/install/rqt_publisher:/home/user/ros2_humble/install/rqt_plot:/home/user/ros2_humble/install/rqt_action:/home/user/ros2_humble/install/rqt_msg:/home/user/ros2_humble/install/rqt_console:/home/user/ros2_humble/install/rqt:/home/user/ros2_humble/install/rqt_graph:/home/user/ros2_humble/install/rqt_gui_py:/home/user/ros2_humble/install/rqt_gui:/home/user/ros2_humble/install/ros2trace:/home/user/ros2_humble/install/ros2topic:/home/user/ros2_humble/install/ros2test:/home/user/ros2_humble/install/ros2component:/home/user/ros2_humble/install/ros2param:/home/user/ros2_humble/install/ros2lifecycle:/home/user/ros2_humble/install/ros2service:/home/user/ros2_humble/install/ros2run:/home/user/ros2_humble/install/ros2launch:/home/user/ros2_humble/install/ros2pkg:/home/user/ros2_humble/install/ros2node:/home/user/ros2_humble/install/ros2multicast:/home/user/ros2_humble/install/ros2interface:/home/user/ros2_humble/install/ros2doctor:/home/user/ros2_humble/install/ros2action:/home/user/ros2_humble/install/ros2cli:/home/user/ros2_humble/install/quality_of_service_demo_py:/home/user/ros2_humble/install/lifecycle_py:/home/user/ros2_humble/install/launch_testing_ros:/home/user/ros2_humble/install/launch_ros:/home/user/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/user/ros2_humble/install/examples_rclpy_minimal_service:/home/user/ros2_humble/install/examples_rclpy_minimal_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_client:/home/user/ros2_humble/install/examples_rclpy_minimal_action_server:/home/user/ros2_humble/install/examples_rclpy_minimal_action_client:/home/user/ros2_humble/install/examples_rclpy_guard_conditions:/home/user/ros2_humble/install/examples_rclpy_executors:/home/user/ros2_humble/install/demo_nodes_py:/home/user/ros2_humble/install/action_tutorials_py:/home/user/ros2_humble/install/ament_uncrustify:/home/user/ros2_humble/install/tracetools_trace:/home/user/ros2_humble/install/tracetools_read:/home/user/ros2_humble/install/test_tracetools_launch:/home/user/ros2_humble/install/test_launch_ros:/home/user/ros2_humble/install/sensor_msgs_py:/home/user/ros2_humble/install/rpyutils:/home/user/ros2_humble/install/rosidl_runtime_py:/home/user/ros2_humble/install/rosidl_cli:/home/user/ros2_humble/install/launch_pytest:/home/user/ros2_humble/install/launch_testing:/home/user/ros2_humble/install/launch_yaml:/home/user/ros2_humble/install/launch_xml:/home/user/ros2_humble/install/launch:/home/user/ros2_humble/install/osrf_pycommon:/home/user/ros2_humble/install/launch_testing_examples:/home/user/ros2_humble/install/domain_coordinator:/home/user/ros2_humble/install/ament_xmllint:/home/user/ros2_humble/install/ament_pyflakes:/home/user/ros2_humble/install/ament_pycodestyle:/home/user/ros2_humble/install/ament_pep257:/home/user/ros2_humble/install/ament_pclint:/home/user/ros2_humble/install/ament_package:/home/user/ros2_humble/install/ament_mypy:/home/user/ros2_humble/install/ament_lint_cmake:/home/user/ros2_humble/install/ament_flake8:/home/user/ros2_humble/install/ament_copyright:/home/user/ros2_humble/install/ament_lint:/home/user/ros2_humble/install/ament_index_python:/home/user/ros2_humble/install/ament_cpplint:/home/user/ros2_humble/install/ament_cppcheck:/home/user/ros2_humble/install/ament_clang_tidy:/home/user/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/user/template_ws/build/my_interfaces -- -j4 -l4
+[0.439s] -- Found ament_cmake: 1.3.5 (/home/user/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+[1.178s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.202s] -- Found geometry_msgs: 4.2.3 (/home/user/ros2_humble/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.278s] -- Found rosidl_generator_c: 3.1.4 (/home/user/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[1.284s] -- Found rosidl_adapter: 3.1.4 (/home/user/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[1.298s] -- Found rosidl_generator_cpp: 3.1.4 (/home/user/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[1.363s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[1.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[1.658s] -- Found rosidl_default_generators: 1.2.0 (/home/user/ros2_humble/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[3.118s] -- Found ament_cmake_ros: 0.10.0 (/home/user/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[4.903s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[5.554s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[5.666s] -- Found python_cmake_module: 0.10.0 (/home/user/ros2_humble/install/python_cmake_module/share/python_cmake_module/cmake)
+[5.777s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.777s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.777s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.515s] -- Found ament_lint_auto: 0.12.6 (/home/user/ros2_humble/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[6.541s] -- Added test 'lint_cmake' to check CMake code style
+[6.543s] -- Added test 'xmllint' to check XML markup files
+[6.550s] -- Configuring done
+[6.675s] -- Generating done
+[6.679s] -- Build files have been written to: /home/user/template_ws/build/my_interfaces
+[6.783s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.835s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.885s] [  2%] Built target ament_cmake_python_symlink_my_interfaces
+[8.207s] running egg_info
+[8.209s] writing my_interfaces.egg-info/PKG-INFO
+[8.211s] writing dependency_links to my_interfaces.egg-info/dependency_links.txt
+[8.212s] writing top-level names to my_interfaces.egg-info/top_level.txt
+[8.220s] reading manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[8.223s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[8.314s] [  2%] Built target ament_cmake_python_build_my_interfaces_egg
+[9.655s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_generator_c[0m
+[9.809s] [  3%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/num__functions.c.o[0m
+[10.121s] [  5%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/sphere__functions.c.o[0m
+[10.144s] [  5%] Built target my_interfaces__cpp
+[10.165s] [  6%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/vel__functions.c.o[0m
+[10.199s] [  7%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/dist__functions.c.o[0m
+[10.258s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.428s] [ 10%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[10.489s] [ 11%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/result__functions.c.o[0m
+[10.546s] [ 12%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/action/detail/fibonacci__functions.c.o[0m
+[10.738s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.889s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.353s] [ 16%] [32m[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so[0m
+[11.777s] [ 16%] Built target my_interfaces__rosidl_generator_c
+[11.934s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.758s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_cpp[0m
+[12.966s] [ 18%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/num__type_support.cpp.o[0m
+[14.204s] [ 20%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/sphere__type_support.cpp.o[0m
+[14.502s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_cpp[0m
+[14.679s] [ 21%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/num__type_support.cpp.o[0m
+[15.199s] [ 22%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/vel__type_support.cpp.o[0m
+[15.200s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[15.343s] [ 24%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[15.895s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c[0m
+[16.130s] [ 25%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[16.272s] [ 26%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[16.454s] [ 27%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/dist__type_support.cpp.o[0m
+[16.859s] [ 29%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[17.174s] [ 30%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[17.398s] [ 31%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[17.724s] [ 32%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/vel__type_support.cpp.o[0m
+[18.204s] [ 34%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/result__type_support.cpp.o[0m
+[18.361s] [ 35%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/vel__type_support.cpp.o[0m
+[18.619s] [ 36%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/vel__type_support_c.cpp.o[0m
+[18.656s] [ 37%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/dist__type_support.cpp.o[0m
+[19.345s] [ 39%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/action/fibonacci__type_support.cpp.o[0m
+[20.065s] [ 40%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/dist__type_support.cpp.o[0m
+[20.118s] [ 41%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/dist__type_support_c.cpp.o[0m
+[20.244s] [ 43%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[21.012s] [ 44%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[21.093s] [ 45%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so[0m
+[21.475s] [ 45%] Built target my_interfaces__rosidl_typesupport_cpp
+[21.571s] [ 46%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/result__type_support_c.cpp.o[0m
+[21.637s] [ 48%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[21.671s] [ 49%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/result__type_support.cpp.o[0m
+[22.419s] [ 50%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/result__type_support.cpp.o[0m
+[22.662s] [ 51%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[22.671s] [ 53%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[23.460s] [ 54%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[24.131s] [ 55%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.285s] [ 56%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[24.445s] [ 58%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[24.864s] [ 58%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[24.960s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.976s] [ 59%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[25.701s] [ 60%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.093s] [ 60%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[26.669s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_c[0m
+[26.764s] [ 62%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/num__type_support.c.o[0m
+[26.852s] [ 63%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/sphere__type_support.c.o[0m
+[26.887s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_c[0m
+[26.894s] [ 64%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/vel__type_support.c.o[0m
+[26.969s] [ 67%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/dist__type_support.c.o[0m
+[26.972s] [ 67%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/num__type_support.cpp.o[0m
+[27.094s] [ 68%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[27.114s] [ 69%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/result__type_support.c.o[0m
+[27.152s] [ 70%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[27.182s] [ 72%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/sphere__type_support.cpp.o[0m
+[27.335s] [ 73%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/vel__type_support.cpp.o[0m
+[27.388s] [ 74%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/dist__type_support.cpp.o[0m
+[27.388s] [ 75%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[27.389s] [ 77%] [32m[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so[0m
+[27.554s] [ 78%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/result__type_support.cpp.o[0m
+[27.563s] [ 79%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/action/fibonacci__type_support.cpp.o[0m
+[27.610s] [ 79%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[27.727s] [ 81%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so[0m
+[27.866s] [ 81%] Built target my_interfaces__rosidl_typesupport_c
+[27.971s] [ 81%] Built target my_interfaces
+[28.063s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.404s] [ 82%] Built target my_interfaces__py
+[30.452s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_generator_py[0m
+[30.530s] [ 83%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_num_s.c.o[0m
+[30.541s] [ 84%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_dist_s.c.o[0m
+[30.555s] [ 86%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_vel_s.c.o[0m
+[30.559s] [ 87%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_sphere_s.c.o[0m
+[30.943s] [ 88%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_add_three_ints_s.c.o[0m
+[30.956s] [ 89%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_result_s.c.o[0m
+[31.039s] [ 91%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/action/_fibonacci_s.c.o[0m
+[31.392s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so[0m
+[31.534s] [ 92%] Built target my_interfaces__rosidl_generator_py
+[31.599s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[31.608s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_c__pyext[0m
+[31.616s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[31.696s] [ 93%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.700s] [ 94%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[31.707s] [ 96%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[32.115s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.166s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.182s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.318s] [100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[32.358s] [100%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[32.405s] [100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[32.444s] Invoked command in '/home/user/template_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/template_ws/install/camera_v2_pkg:/home/user/template_ws/install/camera_srv_pkg:/home/user/template_ws/install/camera_pkg:/home/user/ros2_humble/install/rqt_bag_plugins:/home/user/ros2_humble/install/rqt_bag:/home/user/ros2_humble/install/ros2bag:/home/user/ros2_humble/install/tracetools_test:/home/user/ros2_humble/install/tracetools_launch:/home/user/ros2_humble/install/topic_monitor:/home/user/ros2_humble/install/tf2_tools:/home/user/ros2_humble/install/examples_tf2_py:/home/user/ros2_humble/install/tf2_ros_py:/home/user/ros2_humble/install/sros2:/home/user/ros2_humble/install/rqt_topic:/home/user/ros2_humble/install/rqt_srv:/home/user/ros2_humble/install/rqt_shell:/home/user/ros2_humble/install/rqt_service_caller:/home/user/ros2_humble/install/rqt_reconfigure:/home/user/ros2_humble/install/rqt_py_console:/home/user/ros2_humble/install/rqt_publisher:/home/user/ros2_humble/install/rqt_plot:/home/user/ros2_humble/install/rqt_action:/home/user/ros2_humble/install/rqt_msg:/home/user/ros2_humble/install/rqt_console:/home/user/ros2_humble/install/rqt:/home/user/ros2_humble/install/rqt_graph:/home/user/ros2_humble/install/rqt_gui_py:/home/user/ros2_humble/install/rqt_gui:/home/user/ros2_humble/install/ros2trace:/home/user/ros2_humble/install/ros2topic:/home/user/ros2_humble/install/ros2test:/home/user/ros2_humble/install/ros2component:/home/user/ros2_humble/install/ros2param:/home/user/ros2_humble/install/ros2lifecycle:/home/user/ros2_humble/install/ros2service:/home/user/ros2_humble/install/ros2run:/home/user/ros2_humble/install/ros2launch:/home/user/ros2_humble/install/ros2pkg:/home/user/ros2_humble/install/ros2node:/home/user/ros2_humble/install/ros2multicast:/home/user/ros2_humble/install/ros2interface:/home/user/ros2_humble/install/ros2doctor:/home/user/ros2_humble/install/ros2action:/home/user/ros2_humble/install/ros2cli:/home/user/ros2_humble/install/quality_of_service_demo_py:/home/user/ros2_humble/install/lifecycle_py:/home/user/ros2_humble/install/launch_testing_ros:/home/user/ros2_humble/install/launch_ros:/home/user/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/user/ros2_humble/install/examples_rclpy_minimal_service:/home/user/ros2_humble/install/examples_rclpy_minimal_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_client:/home/user/ros2_humble/install/examples_rclpy_minimal_action_server:/home/user/ros2_humble/install/examples_rclpy_minimal_action_client:/home/user/ros2_humble/install/examples_rclpy_guard_conditions:/home/user/ros2_humble/install/examples_rclpy_executors:/home/user/ros2_humble/install/demo_nodes_py:/home/user/ros2_humble/install/action_tutorials_py:/home/user/ros2_humble/install/ament_uncrustify:/home/user/ros2_humble/install/tracetools_trace:/home/user/ros2_humble/install/tracetools_read:/home/user/ros2_humble/install/test_tracetools_launch:/home/user/ros2_humble/install/test_launch_ros:/home/user/ros2_humble/install/sensor_msgs_py:/home/user/ros2_humble/install/rpyutils:/home/user/ros2_humble/install/rosidl_runtime_py:/home/user/ros2_humble/install/rosidl_cli:/home/user/ros2_humble/install/launch_pytest:/home/user/ros2_humble/install/launch_testing:/home/user/ros2_humble/install/launch_yaml:/home/user/ros2_humble/install/launch_xml:/home/user/ros2_humble/install/launch:/home/user/ros2_humble/install/osrf_pycommon:/home/user/ros2_humble/install/launch_testing_examples:/home/user/ros2_humble/install/domain_coordinator:/home/user/ros2_humble/install/ament_xmllint:/home/user/ros2_humble/install/ament_pyflakes:/home/user/ros2_humble/install/ament_pycodestyle:/home/user/ros2_humble/install/ament_pep257:/home/user/ros2_humble/install/ament_pclint:/home/user/ros2_humble/install/ament_package:/home/user/ros2_humble/install/ament_mypy:/home/user/ros2_humble/install/ament_lint_cmake:/home/user/ros2_humble/install/ament_flake8:/home/user/ros2_humble/install/ament_copyright:/home/user/ros2_humble/install/ament_lint:/home/user/ros2_humble/install/ament_index_python:/home/user/ros2_humble/install/ament_cpplint:/home/user/ros2_humble/install/ament_cppcheck:/home/user/ros2_humble/install/ament_clang_tidy:/home/user/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/user/template_ws/build/my_interfaces -- -j4 -l4
+[34.090s] Invoking command in '/home/user/template_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/template_ws/install/camera_v2_pkg:/home/user/template_ws/install/camera_srv_pkg:/home/user/template_ws/install/camera_pkg:/home/user/ros2_humble/install/rqt_bag_plugins:/home/user/ros2_humble/install/rqt_bag:/home/user/ros2_humble/install/ros2bag:/home/user/ros2_humble/install/tracetools_test:/home/user/ros2_humble/install/tracetools_launch:/home/user/ros2_humble/install/topic_monitor:/home/user/ros2_humble/install/tf2_tools:/home/user/ros2_humble/install/examples_tf2_py:/home/user/ros2_humble/install/tf2_ros_py:/home/user/ros2_humble/install/sros2:/home/user/ros2_humble/install/rqt_topic:/home/user/ros2_humble/install/rqt_srv:/home/user/ros2_humble/install/rqt_shell:/home/user/ros2_humble/install/rqt_service_caller:/home/user/ros2_humble/install/rqt_reconfigure:/home/user/ros2_humble/install/rqt_py_console:/home/user/ros2_humble/install/rqt_publisher:/home/user/ros2_humble/install/rqt_plot:/home/user/ros2_humble/install/rqt_action:/home/user/ros2_humble/install/rqt_msg:/home/user/ros2_humble/install/rqt_console:/home/user/ros2_humble/install/rqt:/home/user/ros2_humble/install/rqt_graph:/home/user/ros2_humble/install/rqt_gui_py:/home/user/ros2_humble/install/rqt_gui:/home/user/ros2_humble/install/ros2trace:/home/user/ros2_humble/install/ros2topic:/home/user/ros2_humble/install/ros2test:/home/user/ros2_humble/install/ros2component:/home/user/ros2_humble/install/ros2param:/home/user/ros2_humble/install/ros2lifecycle:/home/user/ros2_humble/install/ros2service:/home/user/ros2_humble/install/ros2run:/home/user/ros2_humble/install/ros2launch:/home/user/ros2_humble/install/ros2pkg:/home/user/ros2_humble/install/ros2node:/home/user/ros2_humble/install/ros2multicast:/home/user/ros2_humble/install/ros2interface:/home/user/ros2_humble/install/ros2doctor:/home/user/ros2_humble/install/ros2action:/home/user/ros2_humble/install/ros2cli:/home/user/ros2_humble/install/quality_of_service_demo_py:/home/user/ros2_humble/install/lifecycle_py:/home/user/ros2_humble/install/launch_testing_ros:/home/user/ros2_humble/install/launch_ros:/home/user/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/user/ros2_humble/install/examples_rclpy_minimal_service:/home/user/ros2_humble/install/examples_rclpy_minimal_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_client:/home/user/ros2_humble/install/examples_rclpy_minimal_action_server:/home/user/ros2_humble/install/examples_rclpy_minimal_action_client:/home/user/ros2_humble/install/examples_rclpy_guard_conditions:/home/user/ros2_humble/install/examples_rclpy_executors:/home/user/ros2_humble/install/demo_nodes_py:/home/user/ros2_humble/install/action_tutorials_py:/home/user/ros2_humble/install/ament_uncrustify:/home/user/ros2_humble/install/tracetools_trace:/home/user/ros2_humble/install/tracetools_read:/home/user/ros2_humble/install/test_tracetools_launch:/home/user/ros2_humble/install/test_launch_ros:/home/user/ros2_humble/install/sensor_msgs_py:/home/user/ros2_humble/install/rpyutils:/home/user/ros2_humble/install/rosidl_runtime_py:/home/user/ros2_humble/install/rosidl_cli:/home/user/ros2_humble/install/launch_pytest:/home/user/ros2_humble/install/launch_testing:/home/user/ros2_humble/install/launch_yaml:/home/user/ros2_humble/install/launch_xml:/home/user/ros2_humble/install/launch:/home/user/ros2_humble/install/osrf_pycommon:/home/user/ros2_humble/install/launch_testing_examples:/home/user/ros2_humble/install/domain_coordinator:/home/user/ros2_humble/install/ament_xmllint:/home/user/ros2_humble/install/ament_pyflakes:/home/user/ros2_humble/install/ament_pycodestyle:/home/user/ros2_humble/install/ament_pep257:/home/user/ros2_humble/install/ament_pclint:/home/user/ros2_humble/install/ament_package:/home/user/ros2_humble/install/ament_mypy:/home/user/ros2_humble/install/ament_lint_cmake:/home/user/ros2_humble/install/ament_flake8:/home/user/ros2_humble/install/ament_copyright:/home/user/ros2_humble/install/ament_lint:/home/user/ros2_humble/install/ament_index_python:/home/user/ros2_humble/install/ament_cpplint:/home/user/ros2_humble/install/ament_cppcheck:/home/user/ros2_humble/install/ament_clang_tidy:/home/user/ros2_humble/install/ament_clang_format /usr/bin/cmake --install /home/user/template_ws/build/my_interfaces
+[34.130s] -- Install configuration: ""
+[34.131s] -- Execute custom install script
+[34.132s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[34.134s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/fibonacci__functions.h
+[34.135s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/fibonacci__struct.h
+[34.135s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/fibonacci__type_support.h
+[34.136s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/fibonacci.h
+[34.137s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dist__functions.h
+[34.137s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dist__struct.h
+[34.138s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dist__type_support.h
+[34.139s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/num__functions.h
+[34.139s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/num__struct.h
+[34.140s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/num__type_support.h
+[34.140s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/sphere__functions.h
+[34.141s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/sphere__struct.h
+[34.142s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/sphere__type_support.h
+[34.142s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/vel__functions.h
+[34.143s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/vel__struct.h
+[34.144s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/vel__type_support.h
+[34.144s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/dist.h
+[34.145s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/num.h
+[34.145s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[34.146s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/sphere.h
+[34.147s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/vel.h
+[34.147s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/add_three_ints.h
+[34.148s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/bool.h
+[34.148s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/add_three_ints__functions.h
+[34.149s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/add_three_ints__struct.h
+[34.149s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/add_three_ints__type_support.h
+[34.150s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/bool__functions.h
+[34.150s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/bool__struct.h
+[34.151s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/bool__type_support.h
+[34.151s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/result__functions.h
+[34.152s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/result__struct.h
+[34.153s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/result__type_support.h
+[34.153s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/result.h
+[34.154s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[34.154s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[34.156s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[34.157s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dist__rosidl_typesupport_fastrtps_c.h
+[34.158s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[34.158s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[34.159s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/vel__rosidl_typesupport_fastrtps_c.h
+[34.159s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.160s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[34.161s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/result__rosidl_typesupport_fastrtps_c.h
+[34.163s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/fibonacci__builder.hpp
+[34.164s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/fibonacci__struct.hpp
+[34.164s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/fibonacci__traits.hpp
+[34.164s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/fibonacci.hpp
+[34.165s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dist__builder.hpp
+[34.165s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dist__struct.hpp
+[34.165s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dist__traits.hpp
+[34.166s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/num__builder.hpp
+[34.166s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/num__struct.hpp
+[34.166s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/num__traits.hpp
+[34.166s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/sphere__builder.hpp
+[34.167s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/sphere__struct.hpp
+[34.167s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/sphere__traits.hpp
+[34.167s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/vel__builder.hpp
+[34.168s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/vel__struct.hpp
+[34.168s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/vel__traits.hpp
+[34.168s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/dist.hpp
+[34.168s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/num.hpp
+[34.169s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/sphere.hpp
+[34.169s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/vel.hpp
+[34.169s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/add_three_ints.hpp
+[34.169s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/bool.hpp
+[34.170s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/add_three_ints__builder.hpp
+[34.170s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/add_three_ints__struct.hpp
+[34.170s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/add_three_ints__traits.hpp
+[34.171s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/bool__builder.hpp
+[34.171s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/bool__struct.hpp
+[34.171s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/bool__traits.hpp
+[34.171s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/result__builder.hpp
+[34.172s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/result__struct.hpp
+[34.172s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/result__traits.hpp
+[34.172s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/result.hpp
+[34.174s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[34.175s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dist__rosidl_typesupport_fastrtps_cpp.hpp
+[34.175s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[34.175s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[34.175s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/vel__rosidl_typesupport_fastrtps_cpp.hpp
+[34.175s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.176s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[34.176s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/bool__rosidl_typesupport_fastrtps_cpp.hpp
+[34.176s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/result__rosidl_typesupport_fastrtps_cpp.hpp
+[34.177s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[34.177s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dist__rosidl_typesupport_introspection_c.h
+[34.178s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[34.178s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[34.178s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/vel__rosidl_typesupport_introspection_c.h
+[34.179s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.179s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[34.179s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/result__rosidl_typesupport_introspection_c.h
+[34.180s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[34.180s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dist__rosidl_typesupport_introspection_cpp.hpp
+[34.180s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[34.181s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[34.181s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/vel__rosidl_typesupport_introspection_cpp.hpp
+[34.181s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[34.182s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/bool__rosidl_typesupport_introspection_cpp.hpp
+[34.182s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/result__rosidl_typesupport_introspection_cpp.hpp
+[34.182s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[34.182s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[34.183s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[34.183s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[34.184s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[34.184s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[34.185s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py
+[34.186s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c
+[34.186s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[34.186s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[34.186s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/__init__.py
+[34.187s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/_fibonacci.py
+[34.187s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/_fibonacci_s.c
+[34.187s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so
+[34.187s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py
+[34.188s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_dist.py
+[34.190s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_dist_s.c
+[34.190s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_num.py
+[34.190s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_num_s.c
+[34.191s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_sphere.py
+[34.191s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_sphere_s.c
+[34.191s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_vel.py
+[34.191s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_vel_s.c
+[34.191s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.191s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.191s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.192s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py
+[34.192s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_add_three_ints.py
+[34.192s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_add_three_ints_s.c
+[34.192s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_result.py
+[34.192s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_result_s.c
+[34.193s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.193s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.194s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.194s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/msg/Num.idl
+[34.195s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/msg/Sphere.idl
+[34.195s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/msg/Vel.idl
+[34.196s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/msg/Dist.idl
+[34.196s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/srv/AddThreeInts.idl
+[34.196s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/srv/Result.idl
+[34.197s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/action/Fibonacci.idl
+[34.197s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/msg/Num.msg
+[34.197s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/msg/Sphere.msg
+[34.198s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/msg/Vel.msg
+[34.198s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/msg/Dist.msg
+[34.198s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/srv/AddThreeInts.srv
+[34.199s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/srv/AddThreeInts_Request.msg
+[34.199s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/srv/AddThreeInts_Response.msg
+[34.199s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/srv/Result.srv
+[34.200s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/srv/Result_Request.msg
+[34.200s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/srv/Result_Response.msg
+[34.200s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/action/Fibonacci.action
+[34.201s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[34.201s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[34.201s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[34.202s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[34.203s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/environment/path.sh
+[34.203s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[34.203s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/local_setup.bash
+[34.204s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/local_setup.sh
+[34.204s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[34.204s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[34.205s] -- Symlinking: /home/user/template_ws/install/my_interfaces/share/my_interfaces/package.dsv
+[34.246s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[34.246s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[34.247s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.247s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.247s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[34.247s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[34.247s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.247s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.247s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[34.248s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[34.248s] -- Up-to-date symlink: /home/user/template_ws/install/my_interfaces/share/my_interfaces/package.xml
+[34.280s] -- Installing: /home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[34.281s] -- Set runtime path of "/home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""
+[34.282s] -- Installing: /home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[34.284s] -- Set runtime path of "/home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[34.285s] -- Installing: /home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[34.286s] -- Set runtime path of "/home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.287s] -- Installing: /home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[34.290s] -- Set runtime path of "/home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[34.290s] -- Installing: /home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[34.291s] -- Set runtime path of "/home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""
+[34.292s] -- Installing: /home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[34.293s] -- Set runtime path of "/home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[34.294s] -- Installing: /home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[34.295s] -- Set runtime path of "/home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""
+[34.547s] Listing '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...
+[34.547s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...
+[34.548s] Listing '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action'...
+[34.548s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/__init__.py'...
+[34.548s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/action/_fibonacci.py'...
+[34.548s] Listing '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...
+[34.548s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py'...
+[34.548s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_dist.py'...
+[34.548s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_num.py'...
+[34.548s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_sphere.py'...
+[34.549s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_vel.py'...
+[34.549s] Listing '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv'...
+[34.549s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py'...
+[34.549s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_add_three_ints.py'...
+[34.549s] Compiling '/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_result.py'...
+[34.557s] -- Installing: /home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so
+[34.558s] -- Set runtime path of "/home/user/template_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""
+[34.559s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake
+[34.559s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[34.559s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[34.559s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[34.559s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake
+[34.560s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.560s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[34.560s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[34.560s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.560s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[34.561s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[34.561s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[34.561s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.561s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[34.561s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[34.562s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake
+[34.562s] -- Up-to-date: /home/user/template_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[34.570s] Invoked command in '/home/user/template_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/template_ws/install/camera_v2_pkg:/home/user/template_ws/install/camera_srv_pkg:/home/user/template_ws/install/camera_pkg:/home/user/ros2_humble/install/rqt_bag_plugins:/home/user/ros2_humble/install/rqt_bag:/home/user/ros2_humble/install/ros2bag:/home/user/ros2_humble/install/tracetools_test:/home/user/ros2_humble/install/tracetools_launch:/home/user/ros2_humble/install/topic_monitor:/home/user/ros2_humble/install/tf2_tools:/home/user/ros2_humble/install/examples_tf2_py:/home/user/ros2_humble/install/tf2_ros_py:/home/user/ros2_humble/install/sros2:/home/user/ros2_humble/install/rqt_topic:/home/user/ros2_humble/install/rqt_srv:/home/user/ros2_humble/install/rqt_shell:/home/user/ros2_humble/install/rqt_service_caller:/home/user/ros2_humble/install/rqt_reconfigure:/home/user/ros2_humble/install/rqt_py_console:/home/user/ros2_humble/install/rqt_publisher:/home/user/ros2_humble/install/rqt_plot:/home/user/ros2_humble/install/rqt_action:/home/user/ros2_humble/install/rqt_msg:/home/user/ros2_humble/install/rqt_console:/home/user/ros2_humble/install/rqt:/home/user/ros2_humble/install/rqt_graph:/home/user/ros2_humble/install/rqt_gui_py:/home/user/ros2_humble/install/rqt_gui:/home/user/ros2_humble/install/ros2trace:/home/user/ros2_humble/install/ros2topic:/home/user/ros2_humble/install/ros2test:/home/user/ros2_humble/install/ros2component:/home/user/ros2_humble/install/ros2param:/home/user/ros2_humble/install/ros2lifecycle:/home/user/ros2_humble/install/ros2service:/home/user/ros2_humble/install/ros2run:/home/user/ros2_humble/install/ros2launch:/home/user/ros2_humble/install/ros2pkg:/home/user/ros2_humble/install/ros2node:/home/user/ros2_humble/install/ros2multicast:/home/user/ros2_humble/install/ros2interface:/home/user/ros2_humble/install/ros2doctor:/home/user/ros2_humble/install/ros2action:/home/user/ros2_humble/install/ros2cli:/home/user/ros2_humble/install/quality_of_service_demo_py:/home/user/ros2_humble/install/lifecycle_py:/home/user/ros2_humble/install/launch_testing_ros:/home/user/ros2_humble/install/launch_ros:/home/user/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/user/ros2_humble/install/examples_rclpy_minimal_service:/home/user/ros2_humble/install/examples_rclpy_minimal_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_client:/home/user/ros2_humble/install/examples_rclpy_minimal_action_server:/home/user/ros2_humble/install/examples_rclpy_minimal_action_client:/home/user/ros2_humble/install/examples_rclpy_guard_conditions:/home/user/ros2_humble/install/examples_rclpy_executors:/home/user/ros2_humble/install/demo_nodes_py:/home/user/ros2_humble/install/action_tutorials_py:/home/user/ros2_humble/install/ament_uncrustify:/home/user/ros2_humble/install/tracetools_trace:/home/user/ros2_humble/install/tracetools_read:/home/user/ros2_humble/install/test_tracetools_launch:/home/user/ros2_humble/install/test_launch_ros:/home/user/ros2_humble/install/sensor_msgs_py:/home/user/ros2_humble/install/rpyutils:/home/user/ros2_humble/install/rosidl_runtime_py:/home/user/ros2_humble/install/rosidl_cli:/home/user/ros2_humble/install/launch_pytest:/home/user/ros2_humble/install/launch_testing:/home/user/ros2_humble/install/launch_yaml:/home/user/ros2_humble/install/launch_xml:/home/user/ros2_humble/install/launch:/home/user/ros2_humble/install/osrf_pycommon:/home/user/ros2_humble/install/launch_testing_examples:/home/user/ros2_humble/install/domain_coordinator:/home/user/ros2_humble/install/ament_xmllint:/home/user/ros2_humble/install/ament_pyflakes:/home/user/ros2_humble/install/ament_pycodestyle:/home/user/ros2_humble/install/ament_pep257:/home/user/ros2_humble/install/ament_pclint:/home/user/ros2_humble/install/ament_package:/home/user/ros2_humble/install/ament_mypy:/home/user/ros2_humble/install/ament_lint_cmake:/home/user/ros2_humble/install/ament_flake8:/home/user/ros2_humble/install/ament_copyright:/home/user/ros2_humble/install/ament_lint:/home/user/ros2_humble/install/ament_index_python:/home/user/ros2_humble/install/ament_cpplint:/home/user/ros2_humble/install/ament_cppcheck:/home/user/ros2_humble/install/ament_clang_tidy:/home/user/ros2_humble/install/ament_clang_format /usr/bin/cmake --install /home/user/template_ws/build/my_interfaces

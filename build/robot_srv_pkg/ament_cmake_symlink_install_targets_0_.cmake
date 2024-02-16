@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/template_ws/build/robot_srv_pkg/robot_srv_node" "/home/user/template_ws/build/robot_srv_pkg/robot_srv_server_node" "/home/user/template_ws/build/robot_srv_pkg/robot_srv_client_node" "TARGETS" "robot_srv_node" "robot_srv_server_node" "robot_srv_client_node" "DESTINATION" "lib/robot_srv_pkg")

@@ -1,0 +1,13 @@
+{
+  "package_name": "my_interfaces",
+  "non_idl_tuples": [
+    "/home/user/template_ws/src/my_interfaces:msg/Num.msg",
+    "/home/user/template_ws/src/my_interfaces:msg/Sphere.msg",
+    "/home/user/template_ws/src/my_interfaces:msg/Vel.msg",
+    "/home/user/template_ws/src/my_interfaces:msg/Dist.msg",
+    "/home/user/template_ws/src/my_interfaces:srv/AddThreeInts.srv",
+    "/home/user/template_ws/src/my_interfaces:srv/Result.srv",
+    "/home/user/template_ws/src/my_interfaces:action/Fibonacci.action",
+    "/home/user/template_ws/src/my_interfaces:action/Fibonacci2.action"
+  ]
+}

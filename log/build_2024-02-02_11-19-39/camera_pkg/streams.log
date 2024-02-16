@@ -1,0 +1,17 @@
+[4.407s] Invoking command in '/home/user/template_ws/build/camera_pkg': PYTHONPATH=/home/user/template_ws/build/camera_pkg/prefix_override:/home/user/template_ws/install/camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/template_ws/build/camera_pkg/build --no-deps install_data
+[6.107s] running develop
+[7.175s] running egg_info
+[7.175s] writing camera_pkg.egg-info/PKG-INFO
+[7.176s] writing dependency_links to camera_pkg.egg-info/dependency_links.txt
+[7.176s] writing entry points to camera_pkg.egg-info/entry_points.txt
+[7.176s] writing requirements to camera_pkg.egg-info/requires.txt
+[7.176s] writing top-level names to camera_pkg.egg-info/top_level.txt
+[7.179s] reading manifest file 'camera_pkg.egg-info/SOURCES.txt'
+[7.180s] writing manifest file 'camera_pkg.egg-info/SOURCES.txt'
+[7.189s] running build_ext
+[7.190s] Creating /home/user/template_ws/install/camera_pkg/lib/python3.10/site-packages/camera-pkg.egg-link (link to .)
+[7.190s] Installing camera_node script to /home/user/template_ws/install/camera_pkg/lib/camera_pkg
+[7.191s] 
+[7.192s] Installed /home/user/template_ws/build/camera_pkg
+[7.192s] running install_data
+[7.268s] Invoked command in '/home/user/template_ws/build/camera_pkg' returned '0': PYTHONPATH=/home/user/template_ws/build/camera_pkg/prefix_override:/home/user/template_ws/install/camera_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/template_ws/build/camera_pkg/build --no-deps install_data

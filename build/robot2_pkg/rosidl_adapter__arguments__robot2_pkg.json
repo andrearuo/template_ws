@@ -1,0 +1,6 @@
+{
+  "package_name": "robot2_pkg",
+  "non_idl_tuples": [
+    "/home/user/template_ws/src/robot2_pkg:srv/serviceMessageType.srv"
+  ]
+}

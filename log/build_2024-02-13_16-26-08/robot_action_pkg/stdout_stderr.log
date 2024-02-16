@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_action_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_action_node.dir/src/robot_action_node.cpp.o[0m
+[01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In function ‘[01m[Kvoid CallAction(std::shared_ptr<rclcpp::Node>, rclcpp_action::Client<my_interfaces::action::Fibonacci2>::SharedPtr)[m[K’:
+[01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:99:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto send_goal_options[m[K’
+   99 |   auto [01;31m[Ksend_goal_options[m[K = rclcpp_action::Client<Fibonacci2>::SendGoalOptions();
+      |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:97:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krclcpp_action::Client<my_interfaces::action::Fibonacci2>::SendGoalOptions send_goal_options[m[K’
+   97 |   auto [01;36m[Ksend_goal_options[m[K = rclcpp_action::Client<Fibonacci2>::SendGoalOptions();
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:100:57:[m[K [01;31m[Kerror: [m[K‘[01m[KgoalResponseCallback[m[K’ was not declared in this scope
+  100 |   send_goal_options.goal_response_callback = std::bind(&[01;31m[KgoalResponseCallback[m[K, node, std::placeholders::_1);
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:101:57:[m[K [01;31m[Kerror: [m[K‘[01m[KfeedbackCallback[m[K’ was not declared in this scope
+  101 |   send_goal_options.feedback_callback      = std::bind(&[01;31m[KfeedbackCallback[m[K, node, std::placeholders::_1, std::placeholders::_2);
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:102:57:[m[K [01;31m[Kerror: [m[K‘[01m[KresultCallback[m[K’ was not declared in this scope
+  102 |   send_goal_options.result_callback        = std::bind(&[01;31m[KresultCallback[m[K, node, std::placeholders::_1);
+      |                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:155:20:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kaction_client[m[K’ from ‘[01m[Kshared_ptr<Client<[01;32m[Kmy_interfaces::action::Fibonacci[m[K>>[m[K’ to ‘[01m[Kshared_ptr<Client<[01;32m[Kmy_interfaces::action::Fibonacci2[m[K>>[m[K’
+  155 |   CallAction(node, [01;31m[Kaction_client[m[K);
+      |                    [01;31m[K^~~~~~~~~~~~~[m[K
+      |                    [01;31m[K|[m[K
+      |                    [01;31m[Kshared_ptr<Client<my_interfaces::action::Fibonacci>>[m[K
+gmake[2]: *** [CMakeFiles/robot_action_node.dir/build.make:76: CMakeFiles/robot_action_node.dir/src/robot_action_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

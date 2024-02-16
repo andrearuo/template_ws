@@ -1,0 +1,16 @@
+/home/user/template_ws/install/robot_v2_pkg/lib/robot_v2_pkg/robot_v2_node
+/home/user/template_ws/install/robot_v2_pkg/share/ament_index/resource_index/package_run_dependencies/robot_v2_pkg
+/home/user/template_ws/install/robot_v2_pkg/share/ament_index/resource_index/parent_prefix_path/robot_v2_pkg
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/environment/ament_prefix_path.sh
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/environment/ament_prefix_path.dsv
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/environment/path.sh
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/environment/path.dsv
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/local_setup.bash
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/local_setup.sh
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/local_setup.zsh
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/local_setup.dsv
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/package.dsv
+/home/user/template_ws/install/robot_v2_pkg/share/ament_index/resource_index/packages/robot_v2_pkg
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/cmake/robot_v2_pkgConfig.cmake
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/cmake/robot_v2_pkgConfig-version.cmake
+/home/user/template_ws/install/robot_v2_pkg/share/robot_v2_pkg/package.xml

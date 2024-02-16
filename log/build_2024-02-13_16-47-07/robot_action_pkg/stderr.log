@@ -1,0 +1,14 @@
+[01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:122:60:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kmy_interfaces::action::Fibonacci2_Goal_<std::allocator<void> >[m[K’ to ‘[01m[Kconst Goal&[m[K’ {aka ‘[01m[Kconst my_interfaces::action::Fibonacci_Goal_<std::allocator<void> >&[m[K’}
+  122 |   auto goal_handle_future = action_client->async_send_goal([01;31m[Kgoal_msg[m[K);
+      |                                                            [01;31m[K^~~~~~~~[m[K
+      |                                                            [01;31m[K|[m[K
+      |                                                            [01;31m[Kmy_interfaces::action::Fibonacci2_Goal_<std::allocator<void> >[m[K
+In file included from [01m[K/home/user/ros2_humble/src/ros2/rclcpp/rclcpp_action/include/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:11[m[K:
+[01m[K/home/user/ros2_humble/src/ros2/rclcpp/rclcpp_action/include/rclcpp_action/client.hpp:422:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::shared_future<typename rclcpp_action::ClientGoalHandle<ActionT>::SharedPtr> rclcpp_action::Client<ActionT>::async_send_goal(const Goal&, const rclcpp_action::Client<ActionT>::SendGoalOptions&) [with ActionT = my_interfaces::action::Fibonacci; typename rclcpp_action::ClientGoalHandle<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::ClientGoalHandle<my_interfaces::action::Fibonacci> >; rclcpp_action::Client<ActionT>::Goal = my_interfaces::action::Fibonacci_Goal_<std::allocator<void> >][m[K’
+  422 |   async_send_goal([01;36m[Kconst Goal & goal[m[K, const SendGoalOptions & options = SendGoalOptions())
+      |                   [01;36m[K~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_action_node.dir/build.make:76: CMakeFiles/robot_action_node.dir/src/robot_action_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

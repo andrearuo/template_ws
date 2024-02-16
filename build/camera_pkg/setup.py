@@ -1,0 +1,1 @@
+/home/user/template_ws/src/camera_pkg/setup.py

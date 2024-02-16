@@ -1,0 +1,5 @@
+[console_scripts]
+camera_srv_client_node = camera_srv_pkg.camera_srv_client_node:main
+camera_srv_node = camera_srv_pkg.camera_srv_node:main
+camera_srv_server_node = camera_srv_pkg.camera_srv_server_node:main
+

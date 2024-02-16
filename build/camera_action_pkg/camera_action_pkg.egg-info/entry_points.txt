@@ -1,0 +1,5 @@
+[console_scripts]
+camera_action_client_node = camera_action_pkg.camera_action_client_node:main
+camera_action_node = camera_action_pkg.camera_action_node:main
+camera_action_server_node = camera_action_pkg.camera_action_server_node:main
+

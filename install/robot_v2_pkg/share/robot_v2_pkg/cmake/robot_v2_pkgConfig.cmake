@@ -1,0 +1,1 @@
+/home/user/template_ws/build/robot_v2_pkg/ament_cmake_core/robot_v2_pkgConfig.cmake

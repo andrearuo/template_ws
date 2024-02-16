@@ -1,0 +1,1 @@
+/home/user/template_ws/build/my_interfaces/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/vel__rosidl_typesupport_fastrtps_c.h

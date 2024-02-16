@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_interfaces/srv/Bool.srv
+// generated code does not contain a copyright notice
+
+#include "my_interfaces/msg/Bool.idl"
+
+module my_interfaces {
+  module srv {
+    struct Bool_Request {
+      int64 dist;
+    };
+    struct Bool_Response {
+      my_interfaces::msg::Bool result;
+    };
+  };
+};

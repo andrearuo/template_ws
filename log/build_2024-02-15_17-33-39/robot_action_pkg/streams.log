@@ -1,0 +1,741 @@
+[0.081s] Invoking command in '/home/user/template_ws/build/robot_action_pkg': CMAKE_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:/home/user/template_ws/install/robot_v2_pkg:/home/user/template_ws/install/robot_srv_pkg:/home/user/template_ws/install/robot_pkg:/home/user/template_ws/install/robot_action_pkg:/home/user/ros2_humble/install/rosbag2_storage_mcap:/home/user/ros2_humble/install/rosbag2:/home/user/ros2_humble/install/rosbag2_compression_zstd:/home/user/ros2_humble/install/mcap_vendor:/home/user/ros2_humble/install/zstd_vendor:/home/user/ros2_humble/install/rviz_visual_testing_framework:/home/user/ros2_humble/install/rviz2:/home/user/ros2_humble/install/rviz_default_plugins:/home/user/ros2_humble/install/rviz_common:/home/user/ros2_humble/install/rosbag2_py:/home/user/ros2_humble/install/rosbag2_transport:/home/user/ros2_humble/install/rosbag2_performance_benchmarking:/home/user/ros2_humble/install/rosbag2_compression:/home/user/ros2_humble/install/rosbag2_cpp:/home/user/ros2_humble/install/rosbag2_storage_default_plugins:/home/user/ros2_humble/install/rosbag2_storage:/home/user/ros2_humble/install/image_common:/home/user/ros2_humble/install/camera_info_manager:/home/user/ros2_humble/install/camera_calibration_parsers:/home/user/ros2_humble/install/yaml_cpp_vendor:/home/user/ros2_humble/install/interactive_markers:/home/user/ros2_humble/install/common_interfaces:/home/user/ros2_humble/install/visualization_msgs:/home/user/ros2_humble/install/dummy_robot_bringup:/home/user/ros2_humble/install/robot_state_publisher:/home/user/ros2_humble/install/kdl_parser:/home/user/ros2_humble/install/urdf:/home/user/ros2_humble/install/urdfdom:/home/user/ros2_humble/install/urdf_parser_plugin:/home/user/ros2_humble/install/urdfdom_headers:/home/user/ros2_humble/install/turtlesim:/home/user/ros2_humble/install/geometry2:/home/user/ros2_humble/install/tf2_sensor_msgs:/home/user/ros2_humble/install/test_tf2:/home/user/ros2_humble/install/tf2_kdl:/home/user/ros2_humble/install/tf2_geometry_msgs:/home/user/ros2_humble/install/tf2_eigen:/home/user/ros2_humble/install/tf2_bullet:/home/user/ros2_humble/install/tf2_ros:/home/user/ros2_humble/install/tf2_py:/home/user/ros2_humble/install/tf2_msgs:/home/user/ros2_humble/install/test_msgs:/home/user/ros2_humble/install/sros2_cmake:/home/user/ros2_humble/install/ros2cli_common_extensions:/home/user/ros2_humble/install/rqt_py_common:/home/user/ros2_humble/install/rosbag2_storage_mcap_testdata:/home/user/ros2_humble/install/ros_testing:/home/user/ros2_humble/install/ros2cli_test_interfaces:/home/user/ros2_humble/install/quality_of_service_demo_cpp:/home/user/ros2_humble/install/image_transport:/home/user/ros2_humble/install/message_filters:/home/user/ros2_humble/install/demo_nodes_cpp:/home/user/ros2_humble/install/composition:/home/user/ros2_humble/install/laser_geometry:/home/user/ros2_humble/install/rclpy:/home/user/ros2_humble/install/examples_rclcpp_minimal_action_server:/home/user/ros2_humble/install/examples_rclcpp_minimal_action_client:/home/user/ros2_humble/install/action_tutorials_cpp:/home/user/ros2_humble/install/rclcpp_action:/home/user/ros2_humble/install/rcl_action:/home/user/ros2_humble/install/examples_rclcpp_wait_set:/home/user/ros2_humble/install/examples_rclcpp_minimal_service:/home/user/ros2_humble/install/examples_rclcpp_minimal_client:/home/user/ros2_humble/install/examples_rclcpp_async_client:/home/user/ros2_humble/install/example_interfaces:/home/user/ros2_humble/install/action_tutorials_interfaces:/home/user/ros2_humble/install/action_msgs:/home/user/ros2_humble/install/unique_identifier_msgs:/home/user/ros2_humble/install/ament_lint_common:/home/user/ros2_humble/install/ament_cmake_uncrustify:/home/user/ros2_humble/install/uncrustify_vendor:/home/user/ros2_humble/install/trajectory_msgs:/home/user/ros2_humble/install/topic_statistics_demo:/home/user/ros2_humble/install/pendulum_control:/home/user/ros2_humble/install/tlsf_cpp:/home/user/ros2_humble/install/test_tracetools:/home/user/ros2_humble/install/rqt_gui_cpp:/home/user/ros2_humble/install/rosbag2_test_common:/home/user/ros2_humble/install/ros2lifecycle_test_fixtures:/home/user/ros2_humble/install/lifecycle:/home/user/ros2_humble/install/rclcpp_lifecycle:/home/user/ros2_humble/install/logging_demo:/home/user/ros2_humble/install/image_tools:/home/user/ros2_humble/install/examples_rclcpp_minimal_subscriber:/home/user/ros2_humble/install/examples_rclcpp_minimal_composition:/home/user/ros2_humble/install/demo_nodes_cpp_native:/home/user/ros2_humble/install/rclcpp_components:/home/user/ros2_humble/install/intra_process_demo:/home/user/ros2_humble/install/examples_rclcpp_multithreaded_executor:/home/user/ros2_humble/install/examples_rclcpp_minimal_timer:/home/user/ros2_humble/install/examples_rclcpp_minimal_publisher:/home/user/ros2_humble/install/examples_rclcpp_cbg_executor:/home/user/ros2_humble/install/dummy_sensors:/home/user/ros2_humble/install/dummy_map_server:/home/user/ros2_humble/install/rclcpp:/home/user/ros2_humble/install/rcl_lifecycle:/home/user/ros2_humble/install/libstatistics_collector:/home/user/ros2_humble/install/rcl:/home/user/ros2_humble/install/rmw_implementation:/home/user/ros2_humble/install/rmw_fastrtps_dynamic_cpp:/home/user/ros2_humble/install/rmw_fastrtps_cpp:/home/user/ros2_humble/install/rmw_fastrtps_shared_cpp:/home/user/ros2_humble/install/rmw_cyclonedds_cpp:/home/user/ros2_humble/install/tracetools:/home/user/ros2_humble/install/tlsf:/home/user/ros2_humble/install/tinyxml_vendor:/home/user/ros2_humble/install/qt_gui_core:/home/user/ros2_humble/install/qt_gui_cpp:/home/user/ros2_humble/install/pluginlib:/home/user/ros2_humble/install/tinyxml2_vendor:/home/user/ros2_humble/install/tf2_eigen_kdl:/home/user/ros2_humble/install/tf2:/home/user/ros2_humble/install/test_security:/home/user/ros2_humble/install/test_rmw_implementation:/home/user/ros2_humble/install/test_rclcpp:/home/user/ros2_humble/install/test_quality_of_service:/home/user/ros2_humble/install/test_launch_testing:/home/user/ros2_humble/install/test_interface_files:/home/user/ros2_humble/install/test_communication:/home/user/ros2_humble/install/test_cli_remapping:/home/user/ros2_humble/install/test_cli:/home/user/ros2_humble/install/qt_gui_app:/home/user/ros2_humble/install/qt_gui:/home/user/ros2_humble/install/tango_icons_vendor:/home/user/ros2_humble/install/stereo_msgs:/home/user/ros2_humble/install/std_srvs:/home/user/ros2_humble/install/shape_msgs:/home/user/ros2_humble/install/map_msgs:/home/user/ros2_humble/install/sensor_msgs:/home/user/ros2_humble/install/nav_msgs:/home/user/ros2_humble/install/diagnostic_msgs:/home/user/ros2_humble/install/geometry_msgs:/home/user/ros2_humble/install/actionlib_msgs:/home/user/ros2_humble/install/std_msgs:/home/user/ros2_humble/install/statistics_msgs:/home/user/ros2_humble/install/sqlite3_vendor:/home/user/ros2_humble/install/rcl_logging_spdlog:/home/user/ros2_humble/install/spdlog_vendor:/home/user/ros2_humble/install/shared_queues_vendor:/home/user/ros2_humble/install/rviz_rendering_tests:/home/user/ros2_humble/install/rviz_rendering:/home/user/ros2_humble/install/rviz_ogre_vendor:/home/user/ros2_humble/install/rviz_assimp_vendor:/home/user/ros2_humble/install/rttest:/home/user/ros2_humble/install/rmw_connextddsmicro:/home/user/ros2_humble/install/rmw_connextdds:/home/user/ros2_humble/install/rmw_connextdds_common:/home/user/ros2_humble/install/rti_connext_dds_cmake_module:/home/user/ros2_humble/install/rosgraph_msgs:/home/user/ros2_humble/install/rosbag2_interfaces:/home/user/ros2_humble/install/rmw_dds_common:/home/user/ros2_humble/install/composition_interfaces:/home/user/ros2_humble/install/rcl_interfaces:/home/user/ros2_humble/install/pendulum_msgs:/home/user/ros2_humble/install/lifecycle_msgs:/home/user/ros2_humble/install/builtin_interfaces:/home/user/ros2_humble/install/rosidl_default_runtime:/home/user/ros2_humble/install/rosidl_default_generators:/home/user/ros2_humble/install/rosidl_generator_py:/home/user/ros2_humble/install/rosidl_typesupport_introspection_tests:/home/user/ros2_humble/install/rosidl_typesupport_cpp:/home/user/ros2_humble/install/rosidl_typesupport_introspection_cpp:/home/user/ros2_humble/install/rosidl_typesupport_c:/home/user/ros2_humble/install/rosidl_typesupport_introspection_c:/home/user/ros2_humble/install/rosidl_typesupport_fastrtps_c:/home/user/ros2_humble/install/rosidl_typesupport_fastrtps_cpp:/home/user/ros2_humble/install/rosidl_generator_cpp:/home/user/ros2_humble/install/rosidl_runtime_cpp:/home/user/ros2_humble/install/rcl_yaml_param_parser:/home/user/ros2_humble/install/rmw:/home/user/ros2_humble/install/rosidl_runtime_c:/home/user/ros2_humble/install/rosidl_generator_c:/home/user/ros2_humble/install/rosidl_typesupport_interface:/home/user/ros2_humble/install/rosidl_generator_dds_idl:/home/user/ros2_humble/install/rosidl_cmake:/home/user/ros2_humble/install/rosidl_parser:/home/user/ros2_humble/install/rosidl_adapter:/home/user/ros2_humble/install/rosbag2_tests:/home/user/ros2_humble/install/ros_environment:/home/user/ros2_humble/install/rmw_implementation_cmake:/home/user/ros2_humble/install/resource_retriever:/home/user/ros2_humble/install/class_loader:/home/user/ros2_humble/install/rcpputils:/home/user/ros2_humble/install/rcl_logging_noop:/home/user/ros2_humble/install/rcl_logging_interface:/home/user/ros2_humble/install/rcutils:/home/user/ros2_humble/install/qt_gui_py_common:/home/user/ros2_humble/install/qt_dotgraph:/home/user/ros2_humble/install/python_qt_binding:/home/user/ros2_humble/install/python_orocos_kdl_vendor:/home/user/ros2_humble/install/launch_testing_ament_cmake:/home/user/ros2_humble/install/python_cmake_module:/home/user/ros2_humble/install/pybind11_vendor:/home/user/ros2_humble/install/performance_test_fixture:/home/user/ros2_humble/install/osrf_testing_tools_cpp:/home/user/ros2_humble/install/orocos_kdl_vendor:/home/user/ros2_humble/install/mimick_vendor:/home/user/ros2_humble/install/libyaml_vendor:/home/user/ros2_humble/install/libcurl_vendor:/home/user/ros2_humble/install/keyboard_handler:/home/user/ros2_humble/install/cyclonedds:/home/user/ros2_humble/install/iceoryx_posh:/home/user/ros2_humble/install/iceoryx_hoofs:/home/user/ros2_humble/install/iceoryx_binding_c:/home/user/ros2_humble/install/ament_cmake_ros:/home/user/ros2_humble/install/ament_cmake_gmock:/home/user/ros2_humble/install/gmock_vendor:/home/user/ros2_humble/install/ament_cmake_auto:/home/user/ros2_humble/install/ament_cmake_gtest:/home/user/ros2_humble/install/gtest_vendor:/home/user/ros2_humble/install/ament_cmake_google_benchmark:/home/user/ros2_humble/install/google_benchmark_vendor:/home/user/ros2_humble/install/fastrtps:/home/user/ros2_humble/install/foonathan_memory_vendor:/home/user/ros2_humble/install/fastrtps_cmake_module:/home/user/ros2_humble/install/fastcdr:/home/user/ros2_humble/install/eigen3_cmake_module:/home/user/ros2_humble/install/console_bridge_vendor:/home/user/ros2_humble/install/ament_cmake_xmllint:/home/user/ros2_humble/install/ament_cmake_pyflakes:/home/user/ros2_humble/install/ament_cmake_pycodestyle:/home/user/ros2_humble/install/ament_cmake_pep257:/home/user/ros2_humble/install/ament_cmake_pclint:/home/user/ros2_humble/install/ament_lint_auto:/home/user/ros2_humble/install/ament_cmake:/home/user/ros2_humble/install/ament_cmake_version:/home/user/ros2_humble/install/ament_cmake_vendor_package:/home/user/ros2_humble/install/ament_cmake_pytest:/home/user/ros2_humble/install/ament_cmake_nose:/home/user/ros2_humble/install/ament_cmake_mypy:/home/user/ros2_humble/install/ament_cmake_lint_cmake:/home/user/ros2_humble/install/ament_cmake_flake8:/home/user/ros2_humble/install/ament_cmake_cpplint:/home/user/ros2_humble/install/ament_cmake_cppcheck:/home/user/ros2_humble/install/ament_cmake_copyright:/home/user/ros2_humble/install/ament_cmake_clang_tidy:/home/user/ros2_humble/install/ament_cmake_clang_format:/home/user/ros2_humble/install/ament_cmake_test:/home/user/ros2_humble/install/ament_cmake_target_dependencies:/home/user/ros2_humble/install/ament_cmake_python:/home/user/ros2_humble/install/ament_cmake_export_dependencies:/home/user/ros2_humble/install/ament_cmake_libraries:/home/user/ros2_humble/install/ament_cmake_include_directories:/home/user/ros2_humble/install/ament_cmake_gen_version_h:/home/user/ros2_humble/install/ament_cmake_export_targets:/home/user/ros2_humble/install/ament_cmake_export_link_flags:/home/user/ros2_humble/install/ament_cmake_export_interfaces:/home/user/ros2_humble/install/ament_cmake_export_libraries:/home/user/ros2_humble/install/ament_cmake_export_include_directories:/home/user/ros2_humble/install/ament_cmake_export_definitions:/home/user/ros2_humble/install/ament_cmake_core:/home/user/ros2_humble/install/ament_index_cpp:/home/user/template_ws/install/camera_v2_pkg:/home/user/template_ws/install/camera_srv_pkg:/home/user/template_ws/install/camera_pkg:/home/user/ros2_humble/install/rqt_bag_plugins:/home/user/ros2_humble/install/rqt_bag:/home/user/ros2_humble/install/ros2bag:/home/user/ros2_humble/install/tracetools_test:/home/user/ros2_humble/install/tracetools_launch:/home/user/ros2_humble/install/topic_monitor:/home/user/ros2_humble/install/tf2_tools:/home/user/ros2_humble/install/examples_tf2_py:/home/user/ros2_humble/install/tf2_ros_py:/home/user/ros2_humble/install/sros2:/home/user/ros2_humble/install/rqt_topic:/home/user/ros2_humble/install/rqt_srv:/home/user/ros2_humble/install/rqt_shell:/home/user/ros2_humble/install/rqt_service_caller:/home/user/ros2_humble/install/rqt_reconfigure:/home/user/ros2_humble/install/rqt_py_console:/home/user/ros2_humble/install/rqt_publisher:/home/user/ros2_humble/install/rqt_plot:/home/user/ros2_humble/install/rqt_action:/home/user/ros2_humble/install/rqt_msg:/home/user/ros2_humble/install/rqt_console:/home/user/ros2_humble/install/rqt:/home/user/ros2_humble/install/rqt_graph:/home/user/ros2_humble/install/rqt_gui_py:/home/user/ros2_humble/install/rqt_gui:/home/user/ros2_humble/install/ros2trace:/home/user/ros2_humble/install/ros2topic:/home/user/ros2_humble/install/ros2test:/home/user/ros2_humble/install/ros2component:/home/user/ros2_humble/install/ros2param:/home/user/ros2_humble/install/ros2lifecycle:/home/user/ros2_humble/install/ros2service:/home/user/ros2_humble/install/ros2run:/home/user/ros2_humble/install/ros2launch:/home/user/ros2_humble/install/ros2pkg:/home/user/ros2_humble/install/ros2node:/home/user/ros2_humble/install/ros2multicast:/home/user/ros2_humble/install/ros2interface:/home/user/ros2_humble/install/ros2doctor:/home/user/ros2_humble/install/ros2action:/home/user/ros2_humble/install/ros2cli:/home/user/ros2_humble/install/quality_of_service_demo_py:/home/user/ros2_humble/install/lifecycle_py:/home/user/ros2_humble/install/launch_testing_ros:/home/user/ros2_humble/install/launch_ros:/home/user/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/user/ros2_humble/install/examples_rclpy_minimal_service:/home/user/ros2_humble/install/examples_rclpy_minimal_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_client:/home/user/ros2_humble/install/examples_rclpy_minimal_action_server:/home/user/ros2_humble/install/examples_rclpy_minimal_action_client:/home/user/ros2_humble/install/examples_rclpy_guard_conditions:/home/user/ros2_humble/install/examples_rclpy_executors:/home/user/ros2_humble/install/demo_nodes_py:/home/user/ros2_humble/install/action_tutorials_py:/home/user/ros2_humble/install/ament_uncrustify:/home/user/ros2_humble/install/tracetools_trace:/home/user/ros2_humble/install/tracetools_read:/home/user/ros2_humble/install/test_tracetools_launch:/home/user/ros2_humble/install/test_launch_ros:/home/user/ros2_humble/install/sensor_msgs_py:/home/user/ros2_humble/install/rpyutils:/home/user/ros2_humble/install/rosidl_runtime_py:/home/user/ros2_humble/install/rosidl_cli:/home/user/ros2_humble/install/launch_pytest:/home/user/ros2_humble/install/launch_testing:/home/user/ros2_humble/install/launch_yaml:/home/user/ros2_humble/install/launch_xml:/home/user/ros2_humble/install/launch:/home/user/ros2_humble/install/osrf_pycommon:/home/user/ros2_humble/install/launch_testing_examples:/home/user/ros2_humble/install/domain_coordinator:/home/user/ros2_humble/install/ament_xmllint:/home/user/ros2_humble/install/ament_pyflakes:/home/user/ros2_humble/install/ament_pycodestyle:/home/user/ros2_humble/install/ament_pep257:/home/user/ros2_humble/install/ament_pclint:/home/user/ros2_humble/install/ament_package:/home/user/ros2_humble/install/ament_mypy:/home/user/ros2_humble/install/ament_lint_cmake:/home/user/ros2_humble/install/ament_flake8:/home/user/ros2_humble/install/ament_copyright:/home/user/ros2_humble/install/ament_lint:/home/user/ros2_humble/install/ament_index_python:/home/user/ros2_humble/install/ament_cpplint:/home/user/ros2_humble/install/ament_cppcheck:/home/user/ros2_humble/install/ament_clang_tidy:/home/user/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/user/template_ws/build/robot_action_pkg -- -j4 -l4
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target robot_action_node[0m
+[0.310s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_action_node.dir/src/robot_action_node.cpp.o[0m
+[3.647s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:48:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+[3.647s]    48 |     [01;31m[Kthis[m[K->action_client_ = rclcpp_action::create_client<Fibonacci2>(
+[3.648s]       |     [01;31m[K^~~~[m[K
+[3.648s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:56:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+[3.648s]    56 |     [01;31m[Kthis[m[K->timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&Robot_action::send_goal, this));
+[3.648s]       |     [01;31m[K^~~~[m[K
+[3.648s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:57:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.648s]    57 |   }
+[3.649s]       |    [01;31m[K^[m[K
+[3.649s]       |    [32m[K;[m[K
+[3.649s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In constructor ‘[01m[KRobot_action::Robot_action(const rclcpp::NodeOptions&)[m[K’:
+[3.649s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:30:134:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobot_action[m[K’ does not have any field named ‘[01m[Kgoal_done_[m[K’
+[3.650s]    30 | ::NodeOptions()) : Node("robot_action_node", node_options), [01;31m[Kgoal_done_[m[K(false)
+[3.650s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[3.650s] 
+[3.650s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:36:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Robot_action[m[K’ has no member named ‘[01m[Kaction_server_[m[K’
+[3.650s]    36 |     this->[01;31m[Kaction_server_[m[K = rclcpp_action::create_server<Fibonacci>(
+[3.651s]       |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.651s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:42:32:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_goal[m[K’ is not a member of ‘[01m[KRobot_action[m[K’
+[3.651s]    42 |       std::bind(&Robot_action::[01;31m[Khandle_goal[m[K, this, _1, _2),
+[3.651s]       |                                [01;31m[K^~~~~~~~~~~[m[K
+[3.651s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:43:32:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_cancel[m[K’ is not a member of ‘[01m[KRobot_action[m[K’
+[3.651s]    43 |       std::bind(&Robot_action::[01;31m[Khandle_cancel[m[K, this, _1),
+[3.651s]       |                                [01;31m[K^~~~~~~~~~~~~[m[K
+[3.652s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:44:32:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_accepted[m[K’ is not a member of ‘[01m[KRobot_action[m[K’
+[3.652s]    44 |       std::bind(&Robot_action::[01;31m[Khandle_accepted[m[K, this, _1));
+[3.652s]       |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.652s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K At global scope:
+[3.652s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:59:23:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kbool is_goal_done()[m[K’ cannot have cv-qualifier
+[3.652s]    59 |   bool is_goal_done() [01;31m[Kconst[m[K
+[3.652s]       |                       [01;31m[K^~~~~[m[K
+[3.652s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In function ‘[01m[Kbool is_goal_done()[m[K’:
+[3.653s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:61:12:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.653s]    61 |     return [01;31m[Kthis[m[K->goal_done_;
+[3.653s]       |            [01;31m[K^~~~[m[K
+[3.653s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In function ‘[01m[Kvoid send_goal()[m[K’:
+[3.653s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:69:5:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.653s]    69 |     [01;31m[Kthis[m[K->timer_->cancel();
+[3.653s]       |     [01;31m[K^~~~[m[K
+[3.654s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:71:5:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.654s]    71 |     [01;31m[Kthis[m[K->goal_done_ = false;
+[3.654s]       |     [01;31m[K^~~~[m[K
+[3.654s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:74:10:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.654s]    74 |     if (![01;31m[Kthis[m[K->action_client_) {
+[3.654s]       |          [01;31m[K^~~~[m[K
+[3.654s] In file included from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.655s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.655s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.655s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.655s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.655s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.655s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.655s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.656s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.656s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.656s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.656s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:75:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.656s]    75 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Action client not initialized");
+[3.656s]       |                    [01;31m[K^~~~[m[K
+[3.656s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:75:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.657s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:75:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.657s]    75 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action client not initialized");
+[3.657s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.698s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:75:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.698s]    75 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action client not initialized");
+[3.698s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.699s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:75:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.699s]    75 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action client not initialized");
+[3.699s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.700s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:75:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.700s]    75 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action client not initialized");
+[3.700s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.700s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:75:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.700s]    75 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action client not initialized");
+[3.700s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.700s] In file included from [01m[K/home/user/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+[3.701s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.701s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.701s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.701s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.701s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.701s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.702s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.702s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.702s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.702s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.702s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.702s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:75:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.702s]    75 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Action client not initialized");
+[3.702s]       |                    [01;31m[K^~~~[m[K
+[3.703s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:75:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.703s]    75 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Action client not initialized");
+[3.703s]       |                    [01;31m[K^~~~[m[K
+[3.703s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:78:10:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.703s]    78 |     if (![01;31m[Kthis[m[K->action_client_->wait_for_action_server(std::chrono::seconds(10))) {
+[3.703s]       |          [01;31m[K^~~~[m[K
+[3.703s] In file included from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.704s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.704s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.704s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.704s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.704s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.704s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.704s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.704s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.705s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.705s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.705s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:79:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.705s]    79 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Action server not available after waiting");
+[3.705s]       |                    [01;31m[K^~~~[m[K
+[3.705s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:79:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.705s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:79:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.705s]    79 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action server not available after waiting");
+[3.705s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.706s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.706s]    79 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action server not available after waiting");
+[3.706s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.706s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:79:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.707s]    79 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action server not available after waiting");
+[3.707s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.707s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.707s]    79 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action server not available after waiting");
+[3.707s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.707s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:79:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.707s]    79 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Action server not available after waiting");
+[3.707s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.707s] In file included from [01m[K/home/user/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+[3.708s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.708s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.708s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.708s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.708s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.708s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.708s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.708s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.708s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.709s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.709s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.709s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:79:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.709s]    79 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Action server not available after waiting");
+[3.709s]       |                    [01;31m[K^~~~[m[K
+[3.709s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:79:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.709s]    79 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Action server not available after waiting");
+[3.709s]       |                    [01;31m[K^~~~[m[K
+[3.709s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:80:7:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.710s]    80 |       [01;31m[Kthis[m[K->goal_done_ = true;
+[3.710s]       |       [01;31m[K^~~~[m[K
+[3.710s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:85:21:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci2[m[K’ has not been declared
+[3.710s]    85 |     auto goal_msg = [01;31m[KFibonacci2[m[K::Goal();
+[3.711s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[3.712s] In file included from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.712s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.712s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.712s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.712s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.713s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.713s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.713s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.713s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.713s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.713s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.714s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:87:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.714s]    87 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Sending goal");
+[3.714s]       |                 [01;31m[K^~~~[m[K
+[3.714s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:87:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.714s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:87:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.714s]    87 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sending goal");
+[3.715s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.715s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:87:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.715s]    87 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sending goal");
+[3.715s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.715s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:87:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.715s]    87 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sending goal");
+[3.715s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.715s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:87:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.715s]    87 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sending goal");
+[3.716s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.716s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:87:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.716s]    87 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sending goal");
+[3.716s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.716s] In file included from [01m[K/home/user/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+[3.716s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.716s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.716s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.716s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.717s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.717s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.717s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.717s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.717s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.717s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.717s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.717s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:87:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.717s]    87 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Sending goal");
+[3.718s]       |                 [01;31m[K^~~~[m[K
+[3.718s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:87:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.718s]    87 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Sending goal");
+[3.718s]       |                 [01;31m[K^~~~[m[K
+[3.718s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:90:52:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci2[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interfaces::action::Fibonacci2[m[K’?
+[3.718s]    90 |     auto send_goal_options = rclcpp_action::Client<[01;31m[KFibonacci2[m[K>::SendGoalOptions();
+[3.718s]       |                                                    [01;31m[K^~~~~~~~~~[m[K
+[3.718s]       |                                                    [32m[Kmy_interfaces::action::Fibonacci2[m[K
+[3.719s] In file included from [01m[K/home/user/template_ws/build/my_interfaces/rosidl_generator_cpp/my_interfaces/action/fibonacci2.hpp:7[m[K,
+[3.719s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:15[m[K:
+[3.719s] [01m[K/home/user/template_ws/build/my_interfaces/rosidl_generator_cpp/my_interfaces/action/detail/fibonacci2__struct.hpp:1041:27:[m[K [01;36m[Knote: [m[K‘[01m[Kmy_interfaces::action::Fibonacci2[m[K’ declared here
+[3.719s]  1041 | typedef struct Fibonacci2 [01;36m[KFibonacci2[m[K;
+[3.719s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[3.719s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:90:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.719s]    90 |    auto send_goal_options = rclcpp_action::Client<Fibonacci2[01;31m[K>[m[K::SendGoalOptions();
+[3.719s]       |                                                             [01;31m[K^[m[K
+[3.719s] 
+[3.720s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:91:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_response_callback[m[K’ is not a member of ‘[01m[KRobot_action[m[K’
+[3.720s]    91 | ptions.goal_response_callback  =   std::bind(&Robot_action::[01;31m[Kgoal_response_callback[m[K, this, _1);
+[3.720s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.720s] 
+[3.720s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:91:100:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.720s]    91 | llback  =   std::bind(&Robot_action::goal_response_callback, [01;31m[Kthis[m[K, _1);
+[3.720s]       |                                                              [01;31m[K^~~~[m[K
+[3.720s] 
+[3.721s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:92:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_callback[m[K’ is not a member of ‘[01m[KRobot_action[m[K’
+[3.721s]    92 | ptions.feedback_callback       =   std::bind(&Robot_action::[01;31m[Kfeedback_callback[m[K, this, _1, _2);
+[3.721s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.721s] 
+[3.721s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:92:95:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.721s]    92 | lback       =   std::bind(&Robot_action::feedback_callback, [01;31m[Kthis[m[K, _1, _2);
+[3.721s]       |                                                             [01;31m[K^~~~[m[K
+[3.721s] 
+[3.721s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:93:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_callback[m[K’ is not a member of ‘[01m[KRobot_action[m[K’
+[3.722s]    93 | ptions.result_callback         =   std::bind(&Robot_action::[01;31m[Kresult_callback[m[K, this, _1);
+[3.722s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.722s] 
+[3.722s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:93:93:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.722s]    93 | llback         =   std::bind(&Robot_action::result_callback, [01;31m[Kthis[m[K, _1);
+[3.722s]       |                                                              [01;31m[K^~~~[m[K
+[3.722s] 
+[3.722s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:96:31:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.723s]    96 |     auto goal_handle_future = [01;31m[Kthis[m[K->action_client_->async_send_goal(goal_msg, send_goal_options);
+[3.723s]       |                               [01;31m[K^~~~[m[K
+[3.723s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K At global scope:
+[3.723s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:100:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[3.723s]   100 | [01;31m[Kprivate[m[K:
+[3.723s]       | [01;31m[K^~~~~~~[m[K
+[3.723s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:105:25:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci2[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interfaces::action::Fibonacci2[m[K’?
+[3.723s]   105 |   rclcpp_action::Client<[01;31m[KFibonacci2[m[K>::SharedPtr action_client_;
+[3.723s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[3.724s]       |                         [32m[Kmy_interfaces::action::Fibonacci2[m[K
+[3.724s] In file included from [01m[K/home/user/template_ws/build/my_interfaces/rosidl_generator_cpp/my_interfaces/action/fibonacci2.hpp:7[m[K,
+[3.724s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:15[m[K:
+[3.724s] [01m[K/home/user/template_ws/build/my_interfaces/rosidl_generator_cpp/my_interfaces/action/detail/fibonacci2__struct.hpp:1041:27:[m[K [01;36m[Knote: [m[K‘[01m[Kmy_interfaces::action::Fibonacci2[m[K’ declared here
+[3.724s]  1041 | typedef struct Fibonacci2 [01;36m[KFibonacci2[m[K;
+[3.724s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[3.724s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:105:35:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.724s]   105 |   rclcpp_action::Client<Fibonacci2[01;31m[K>[m[K::SharedPtr action_client_;
+[3.724s]       |                                   [01;31m[K^[m[K
+[3.725s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:105:48:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kaction_client_[m[K’
+[3.725s]   105 |   rclcpp_action::Client<Fibonacci2>::SharedPtr [01;31m[Kaction_client_[m[K;
+[3.725s]       |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.725s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:112:8:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kgoal_response_callback[m[K’ declared void
+[3.725s]   112 |   void [01;31m[Kgoal_response_callback[m[K(GoalHandleFibonacci2::SharedPtr goal_handle)
+[3.725s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.725s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:112:31:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci2[m[K’ has not been declared
+[3.725s]   112 |   void goal_response_callback([01;31m[KGoalHandleFibonacci2[m[K::SharedPtr goal_handle)
+[3.726s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.726s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:123:8:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kfeedback_callback[m[K’ declared void
+[3.726s]   123 |   void [01;31m[Kfeedback_callback[m[K(GoalHandleFibonacci2::SharedPtr, const std::shared_ptr<const Fibonacci2::Feedback> feedback)
+[3.726s]       |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.726s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:123:26:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci2[m[K’ has not been declared
+[3.726s]   123 |   void feedback_callback([01;31m[KGoalHandleFibonacci2[m[K::SharedPtr, const std::shared_ptr<const Fibonacci2::Feedback> feedback)
+[3.726s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.726s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:123:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[3.727s]   123 |   void feedback_callback(GoalHandleFibonacci2::SharedPtr, [01;31m[Kconst[m[K std::shared_ptr<const Fibonacci2::Feedback> feedback)
+[3.727s]       |                                                           [01;31m[K^~~~~[m[K
+[3.727s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:130:30:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci2[m[K’ does not name a type
+[3.727s]   130 |   void result_callback(const [01;31m[KGoalHandleFibonacci2[m[K::WrappedResult & result)
+[3.727s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.727s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:130:66:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[3.727s]   130 | oid result_callback(const GoalHandleFibonacci2::WrappedResult [01;31m[K&[m[K result)
+[3.727s]       |                                                               [01;31m[K^[m[K
+[3.727s] 
+[3.728s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:130:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[3.728s]   130 | oid result_callback[34m[K([m[Kconst GoalHandleFibonacci2::WrappedResult[01;31m[K [m[K[32m[K&[m[K result)
+[3.728s]       |                    [34m[K~[m[K                                         [01;31m[K^[m[K[32m[K~[m[K
+[3.728s]       |                                                              [32m[K)[m[K
+[3.728s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:130:68:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kresult[m[K’
+[3.728s]   130 | oid result_callback(const GoalHandleFibonacci2::WrappedResult & [01;31m[Kresult[m[K)
+[3.728s]       |                                                                 [01;31m[K^~~~~~[m[K
+[3.728s] 
+[3.728s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:112:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.729s]   154 | cpp_action::GoalUUID & uuid, std::shared_ptr<const Fibonacci[01;31m[K::[m[KGoal> goal)
+[3.729s]       |                                                             [01;31m[K^~[m[K
+[3.729s] 
+[3.729s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:118:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.729s]   154 | p_action::GoalUUID & uuid, std::shared_ptr<const Fibonacci::Goal[01;31m[K>[m[K goal)
+[3.729s]       |                                                                 [01;31m[K^[m[K
+[3.729s] 
+[3.729s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:112:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.730s]   154 | cpp_action::GoalUUID & uuid, std::shared_ptr<const Fibonacci[01;31m[K::[m[KGoal> goal)
+[3.730s]       |                                                             [01;31m[K^~[m[K
+[3.730s] 
+[3.730s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:118:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.730s]   154 | p_action::GoalUUID & uuid, std::shared_ptr<const Fibonacci::Goal[01;31m[K>[m[K goal)
+[3.730s]       |                                                                 [01;31m[K^[m[K
+[3.730s] 
+[3.730s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:112:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.730s]   154 | cpp_action::GoalUUID & uuid, std::shared_ptr<const Fibonacci[01;31m[K::[m[KGoal> goal)
+[3.731s]       |                                                             [01;31m[K^~[m[K
+[3.731s] 
+[3.731s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:118:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.731s]   154 | p_action::GoalUUID & uuid, std::shared_ptr<const Fibonacci::Goal[01;31m[K>[m[K goal)
+[3.731s]       |                                                                 [01;31m[K^[m[K
+[3.731s] 
+[3.731s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:81:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[3.732s]   154 | lResponse handle_goal(const rclcpp_action::GoalUUID & uuid, [01;31m[Kstd[m[K::shared_ptr<const Fibonacci::Goal> goal)
+[3.732s]       |                                                             [01;31m[K^~~[m[K
+[3.732s] 
+[3.732s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:112:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.732s]   154 | cpp_action::GoalUUID & uuid, std::shared_ptr<const Fibonacci[01;31m[K::[m[KGoal> goal)
+[3.732s]       |                                                             [01;31m[K^~[m[K
+[3.733s] 
+[3.733s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:97:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[3.733s]   154 | _goal(const rclcpp_action::GoalUUID & uuid, std::shared_ptr<[01;31m[Kconst[m[K Fibonacci::Goal> goal)
+[3.733s]       |                                                             [01;31m[K^~~~~[m[K
+[3.733s] 
+[3.733s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:97:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[3.733s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:154:81:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[3.733s]   154 | lResponse handle_goal(const rclcpp_action::GoalUUID & uuid, [01;31m[Kstd[m[K::shared_ptr<const Fibonacci::Goal> goal)
+[3.733s]       |                                                             [01;31m[K^~~[m[K
+[3.734s] 
+[3.734s] In file included from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.734s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.734s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.734s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.734s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.734s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.734s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.734s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.735s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.735s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.735s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.735s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In function ‘[01m[Krclcpp_action::GoalResponse handle_goal(...)[m[K’:
+[3.735s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:156:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.735s]   156 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received goal request with order %d", goal->order);
+[3.735s]       |                 [01;31m[K^~~~[m[K
+[3.735s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:156:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.735s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:156:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.736s]   156 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received goal request with order %d", goal->order);
+[3.736s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.736s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:156:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.736s]   156 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received goal request with order %d", goal->order);
+[3.736s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.736s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:156:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.736s]   156 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received goal request with order %d", goal->order);
+[3.736s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.736s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:156:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.737s]   156 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received goal request with order %d", goal->order);
+[3.737s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.737s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:156:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.737s]   156 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received goal request with order %d", goal->order);
+[3.737s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.737s] In file included from [01m[K/home/user/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+[3.737s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.737s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.737s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.738s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.738s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.738s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.738s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.738s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.738s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.738s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.738s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.738s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:156:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.739s]   156 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received goal request with order %d", goal->order);
+[3.739s]       |                 [01;31m[K^~~~[m[K
+[3.739s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:156:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.739s]   156 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received goal request with order %d", goal->order);
+[3.739s]       |                 [01;31m[K^~~~[m[K
+[3.739s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:156:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+[3.739s]   156 | (this->get_logger(), "Received goal request with order %d", [01;31m[Kgoal[m[K->order);
+[3.739s]       |                                                             [01;31m[K^~~~[m[K
+[3.739s] 
+[3.740s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:159:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+[3.740s]   159 |     if ([01;31m[Kgoal[m[K->order > 9000) {
+[3.740s]       |         [01;31m[K^~~~[m[K
+[3.740s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K At global scope:
+[3.740s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:166:27:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ was not declared in this scope
+[3.740s]   166 |     const std::shared_ptr<[01;31m[KGoalHandleFibonacci[m[K> goal_handle)
+[3.740s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.740s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:166:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.741s]   166 |     const std::shared_ptr<GoalHandleFibonacci[01;31m[K>[m[K goal_handle)
+[3.741s]       |                                              [01;31m[K^[m[K
+[3.741s] In file included from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.741s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.741s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.741s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.741s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.741s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.741s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.742s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.742s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.742s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.742s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.742s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In function ‘[01m[Krclcpp_action::CancelResponse handle_cancel(int)[m[K’:
+[3.742s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:168:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.742s]   168 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received request to cancel goal");
+[3.742s]       |                 [01;31m[K^~~~[m[K
+[3.742s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:168:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.743s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:168:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.743s]   168 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received request to cancel goal");
+[3.743s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.743s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:168:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.743s]   168 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received request to cancel goal");
+[3.743s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.744s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:168:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.744s]   168 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received request to cancel goal");
+[3.744s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.744s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:168:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.744s]   168 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received request to cancel goal");
+[3.744s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.744s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:168:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.744s]   168 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received request to cancel goal");
+[3.745s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.745s] In file included from [01m[K/home/user/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+[3.745s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.745s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.745s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.745s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.745s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.746s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.746s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.746s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.746s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.747s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.747s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.747s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:168:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.747s]   168 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received request to cancel goal");
+[3.747s]       |                 [01;31m[K^~~~[m[K
+[3.747s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:168:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.747s]   168 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received request to cancel goal");
+[3.747s]       |                 [01;31m[K^~~~[m[K
+[3.748s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K At global scope:
+[3.748s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:173:38:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ was not declared in this scope
+[3.748s]   173 |   void execute(const std::shared_ptr<[01;31m[KGoalHandleFibonacci[m[K> goal_handle)
+[3.748s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.748s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:173:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.749s]   173 |   void execute(const std::shared_ptr<GoalHandleFibonacci[01;31m[K>[m[K goal_handle)
+[3.749s]       |                                                         [01;31m[K^[m[K
+[3.749s] In file included from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.749s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.750s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.750s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.750s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.750s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.751s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.751s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.751s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.751s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.751s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.751s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In function ‘[01m[Kvoid execute(int)[m[K’:
+[3.751s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:175:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.751s]   175 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Executing goal");
+[3.752s]       |                 [01;31m[K^~~~[m[K
+[3.752s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:175:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.752s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:175:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.752s]   175 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Executing goal");
+[3.752s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.752s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:175:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.752s]   175 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Executing goal");
+[3.752s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.752s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:175:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.753s]   175 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Executing goal");
+[3.753s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.753s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:175:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.753s]   175 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Executing goal");
+[3.753s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.753s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:175:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.753s]   175 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Executing goal");
+[3.753s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.754s] In file included from [01m[K/home/user/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+[3.754s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.754s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.754s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.754s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.754s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.754s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.754s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.754s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.755s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.755s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.755s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.755s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:175:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.755s]   175 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Executing goal");
+[3.755s]       |                 [01;31m[K^~~~[m[K
+[3.755s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:175:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.755s]   175 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Executing goal");
+[3.755s]       |                 [01;31m[K^~~~[m[K
+[3.756s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:177:34:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.756s]   177 |     const auto goal = goal_handle[01;31m[K->[m[Kget_goal();
+[3.756s]       |                                  [01;31m[K^~[m[K
+[3.756s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:178:38:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interfaces::action::Fibonacci[m[K’?
+[3.756s]   178 |     auto feedback = std::make_shared<[01;31m[KFibonacci[m[K::Feedback>();
+[3.756s]       |                                      [01;31m[K^~~~~~~~~[m[K
+[3.756s]       |                                      [32m[Kmy_interfaces::action::Fibonacci[m[K
+[3.756s] In file included from [01m[K/home/user/template_ws/build/my_interfaces/rosidl_generator_cpp/my_interfaces/action/fibonacci.hpp:7[m[K,
+[3.756s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:14[m[K:
+[3.757s] [01m[K/home/user/template_ws/build/my_interfaces/rosidl_generator_cpp/my_interfaces/action/detail/fibonacci__struct.hpp:1041:26:[m[K [01;36m[Knote: [m[K‘[01m[Kmy_interfaces::action::Fibonacci[m[K’ declared here
+[3.757s]  1041 | typedef struct Fibonacci [01;36m[KFibonacci[m[K;
+[3.757s]       |                          [01;36m[K^~~~~~~~~[m[K
+[3.757s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:178:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.757s]   178 |     auto feedback = std::[01;31m[Kmake_shared<Fibonacci::Feedback>[m[K();
+[3.757s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.757s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:178:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[3.757s]   178 |     auto feedback = [01;31m[Kstd::make_shared<Fibonacci::Feedback>()[m[K;
+[3.757s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.758s] In file included from [01m[K/usr/include/c++/11/condition_variable:43[m[K,
+[3.758s]                  from [01m[K/usr/include/c++/11/future:39[m[K,
+[3.758s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:7[m[K:
+[3.758s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.758s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.758s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.758s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.758s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:178:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.758s]   178 |     auto feedback = [01;31m[Kstd::make_shared<Fibonacci::Feedback>()[m[K;
+[3.759s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.759s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:182:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.759s]   182 |     auto result = std::[01;31m[Kmake_shared<Fibonacci::Result>[m[K();
+[3.759s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.759s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:182:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<Fibonacci>()[m[K’
+[3.759s]   182 |     auto result = [01;31m[Kstd::make_shared<Fibonacci::Result>()[m[K;
+[3.759s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.759s] In file included from [01m[K/usr/include/c++/11/condition_variable:43[m[K,
+[3.759s]                  from [01m[K/usr/include/c++/11/future:39[m[K,
+[3.760s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:7[m[K:
+[3.760s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.760s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.761s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.761s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.761s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:186:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.761s]   186 |       if (goal_handle[01;31m[K->[m[Kis_canceling()) {
+[3.761s]       |                      [01;31m[K^~[m[K
+[3.761s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:188:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.761s]   188 |         goal_handle[01;31m[K->[m[Kcanceled(result);
+[3.762s]       |                    [01;31m[K^~[m[K
+[3.762s] In file included from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.762s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.762s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.762s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.762s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.763s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.763s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.763s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.763s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.763s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.763s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.763s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:189:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.764s]   189 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Goal Canceled");
+[3.764s]       |                     [01;31m[K^~~~[m[K
+[3.764s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:189:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.764s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:189:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.764s]   189 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal Canceled");
+[3.764s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.764s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:189:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.764s]   189 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal Canceled");
+[3.765s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.765s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:189:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.765s]   189 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal Canceled");
+[3.765s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.765s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:189:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.765s]   189 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal Canceled");
+[3.765s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.765s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:189:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.765s]   189 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal Canceled");
+[3.766s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.766s] In file included from [01m[K/home/user/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+[3.766s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.766s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.766s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.766s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.766s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.766s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.766s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.766s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.766s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.766s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.766s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.766s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:189:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.767s]   189 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Goal Canceled");
+[3.767s]       |                     [01;31m[K^~~~[m[K
+[3.767s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:189:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.767s]   189 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Goal Canceled");
+[3.767s]       |                     [01;31m[K^~~~[m[K
+[3.767s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:195:18:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.767s]   195 |       goal_handle[01;31m[K->[m[Kpublish_feedback(feedback);
+[3.767s]       |                  [01;31m[K^~[m[K
+[3.767s] In file included from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.767s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.767s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.768s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.768s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.768s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.768s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.768s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.768s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.768s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.768s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.768s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:196:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.768s]   196 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publish Feedback");
+[3.768s]       |                   [01;31m[K^~~~[m[K
+[3.768s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:196:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.768s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:196:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.768s]   196 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publish Feedback");
+[3.769s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.769s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:196:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.769s]   196 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publish Feedback");
+[3.769s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.769s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:196:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.769s]   196 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publish Feedback");
+[3.769s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.769s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:196:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.769s]   196 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publish Feedback");
+[3.769s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.769s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:196:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.769s]   196 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publish Feedback");
+[3.769s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.769s] In file included from [01m[K/home/user/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+[3.770s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.770s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.770s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.770s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.770s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.770s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.770s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.770s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.770s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.770s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.770s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.770s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:196:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.770s]   196 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publish Feedback");
+[3.770s]       |                   [01;31m[K^~~~[m[K
+[3.771s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:196:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.771s]   196 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publish Feedback");
+[3.771s]       |                   [01;31m[K^~~~[m[K
+[3.771s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:204:18:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.771s]   204 |       goal_handle[01;31m[K->[m[Ksucceed(result);
+[3.771s]       |                  [01;31m[K^~[m[K
+[3.771s] In file included from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.771s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.771s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.771s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.771s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.771s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.771s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.771s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.772s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.772s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.772s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.772s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:205:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.772s]   205 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Goal Succeeded");
+[3.772s]       |                   [01;31m[K^~~~[m[K
+[3.772s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:205:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.772s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:205:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.772s]   205 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal Succeeded");
+[3.772s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.772s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:205:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.772s]   205 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal Succeeded");
+[3.772s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.772s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:205:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.773s]   205 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal Succeeded");
+[3.773s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.773s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:205:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.773s]   205 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal Succeeded");
+[3.773s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.773s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:205:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.773s]   205 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal Succeeded");
+[3.773s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.773s] In file included from [01m[K/home/user/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+[3.773s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.773s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.773s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.773s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.773s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.774s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.774s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.774s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.774s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.774s]                  from [01m[K/home/user/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.774s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:12[m[K:
+[3.774s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:205:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.774s]   205 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Goal Succeeded");
+[3.774s]       |                   [01;31m[K^~~~[m[K
+[3.774s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:205:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.774s]   205 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Goal Succeeded");
+[3.774s]       |                   [01;31m[K^~~~[m[K
+[3.774s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K At global scope:
+[3.774s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:209:46:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ was not declared in this scope
+[3.775s]   209 |   void handle_accepted(const std::shared_ptr<[01;31m[KGoalHandleFibonacci[m[K> goal_handle)
+[3.775s]       |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.775s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:209:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.775s]   209 | id handle_accepted(const std::shared_ptr<GoalHandleFibonacci[01;31m[K>[m[K goal_handle)
+[3.775s]       |                                                             [01;31m[K^[m[K
+[3.775s] 
+[3.775s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In function ‘[01m[Kvoid handle_accepted(int)[m[K’:
+[3.775s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:213:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecute[m[K’ is not a member of ‘[01m[KRobot_action[m[K’
+[3.775s]   213 |     std::thread{std::bind(&Robot_action::[01;31m[Kexecute[m[K, this, _1), goal_handle}.detach();
+[3.775s]       |                                          [01;31m[K^~~~~~~[m[K
+[3.775s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:213:51:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.775s]   213 |     std::thread{std::bind(&Robot_action::execute, [01;31m[Kthis[m[K, _1), goal_handle}.detach();
+[3.775s]       |                                                   [01;31m[K^~~~[m[K
+[3.775s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:213:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::thread::thread(<brace-enclosed initializer list>)[m[K’
+[3.775s]   213 | ead{std::bind(&Robot_action::execute, this, _1), goal_handle[01;31m[K}[m[K.detach();
+[3.776s]       |                                                             [01;31m[K^[m[K
+[3.776s] 
+[3.776s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[3.776s]                  from [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:7[m[K:
+[3.776s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Callable, class ... _Args, class> std::thread::thread(_Callable&&, _Args&& ...)[m[K’
+[3.776s]   127 |       [01;36m[Kthread[m[K(_Callable&& __f, _Args&&... __args)
+[3.776s]       |       [01;36m[K^~~~~~[m[K
+[3.776s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.776s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread(std::thread&&)[m[K’
+[3.776s]   157 |     [01;36m[Kthread[m[K(thread&& __t) noexcept
+[3.776s]       |     [01;36m[K^~~~~~[m[K
+[3.776s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[3.776s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread()[m[K’
+[3.776s]   121 |     [01;36m[Kthread[m[K() noexcept = default;
+[3.776s]       |     [01;36m[K^~~~~~[m[K
+[3.777s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[3.777s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K At global scope:
+[3.777s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:217:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.777s]   217 | [01;31m[K}[m[K;  // class Robot_action
+[3.777s]       | [01;31m[K^[m[K
+[3.777s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.777s] [01m[K/home/user/template_ws/src/robot_action_pkg/src/robot_action_node.cpp:231:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Robot_action[m[K’ {aka ‘[01m[Kclass Robot_action[m[K’} has no member named ‘[01m[Kis_goal_done[m[K’
+[3.777s]   231 |   while (!action_client->[01;31m[Kis_goal_done[m[K()) {
+[3.777s]       |                          [01;31m[K^~~~~~~~~~~~[m[K
+[4.459s] gmake[2]: *** [CMakeFiles/robot_action_node.dir/build.make:76: CMakeFiles/robot_action_node.dir/src/robot_action_node.cpp.o] Error 1
+[4.459s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_action_node.dir/all] Error 2
+[4.460s] gmake: *** [Makefile:146: all] Error 2
+[4.463s] Invoked command in '/home/user/template_ws/build/robot_action_pkg' returned '2': CMAKE_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:/home/user/template_ws/install/robot_v2_pkg:/home/user/template_ws/install/robot_srv_pkg:/home/user/template_ws/install/robot_pkg:/home/user/template_ws/install/robot_action_pkg:/home/user/ros2_humble/install/rosbag2_storage_mcap:/home/user/ros2_humble/install/rosbag2:/home/user/ros2_humble/install/rosbag2_compression_zstd:/home/user/ros2_humble/install/mcap_vendor:/home/user/ros2_humble/install/zstd_vendor:/home/user/ros2_humble/install/rviz_visual_testing_framework:/home/user/ros2_humble/install/rviz2:/home/user/ros2_humble/install/rviz_default_plugins:/home/user/ros2_humble/install/rviz_common:/home/user/ros2_humble/install/rosbag2_py:/home/user/ros2_humble/install/rosbag2_transport:/home/user/ros2_humble/install/rosbag2_performance_benchmarking:/home/user/ros2_humble/install/rosbag2_compression:/home/user/ros2_humble/install/rosbag2_cpp:/home/user/ros2_humble/install/rosbag2_storage_default_plugins:/home/user/ros2_humble/install/rosbag2_storage:/home/user/ros2_humble/install/image_common:/home/user/ros2_humble/install/camera_info_manager:/home/user/ros2_humble/install/camera_calibration_parsers:/home/user/ros2_humble/install/yaml_cpp_vendor:/home/user/ros2_humble/install/interactive_markers:/home/user/ros2_humble/install/common_interfaces:/home/user/ros2_humble/install/visualization_msgs:/home/user/ros2_humble/install/dummy_robot_bringup:/home/user/ros2_humble/install/robot_state_publisher:/home/user/ros2_humble/install/kdl_parser:/home/user/ros2_humble/install/urdf:/home/user/ros2_humble/install/urdfdom:/home/user/ros2_humble/install/urdf_parser_plugin:/home/user/ros2_humble/install/urdfdom_headers:/home/user/ros2_humble/install/turtlesim:/home/user/ros2_humble/install/geometry2:/home/user/ros2_humble/install/tf2_sensor_msgs:/home/user/ros2_humble/install/test_tf2:/home/user/ros2_humble/install/tf2_kdl:/home/user/ros2_humble/install/tf2_geometry_msgs:/home/user/ros2_humble/install/tf2_eigen:/home/user/ros2_humble/install/tf2_bullet:/home/user/ros2_humble/install/tf2_ros:/home/user/ros2_humble/install/tf2_py:/home/user/ros2_humble/install/tf2_msgs:/home/user/ros2_humble/install/test_msgs:/home/user/ros2_humble/install/sros2_cmake:/home/user/ros2_humble/install/ros2cli_common_extensions:/home/user/ros2_humble/install/rqt_py_common:/home/user/ros2_humble/install/rosbag2_storage_mcap_testdata:/home/user/ros2_humble/install/ros_testing:/home/user/ros2_humble/install/ros2cli_test_interfaces:/home/user/ros2_humble/install/quality_of_service_demo_cpp:/home/user/ros2_humble/install/image_transport:/home/user/ros2_humble/install/message_filters:/home/user/ros2_humble/install/demo_nodes_cpp:/home/user/ros2_humble/install/composition:/home/user/ros2_humble/install/laser_geometry:/home/user/ros2_humble/install/rclpy:/home/user/ros2_humble/install/examples_rclcpp_minimal_action_server:/home/user/ros2_humble/install/examples_rclcpp_minimal_action_client:/home/user/ros2_humble/install/action_tutorials_cpp:/home/user/ros2_humble/install/rclcpp_action:/home/user/ros2_humble/install/rcl_action:/home/user/ros2_humble/install/examples_rclcpp_wait_set:/home/user/ros2_humble/install/examples_rclcpp_minimal_service:/home/user/ros2_humble/install/examples_rclcpp_minimal_client:/home/user/ros2_humble/install/examples_rclcpp_async_client:/home/user/ros2_humble/install/example_interfaces:/home/user/ros2_humble/install/action_tutorials_interfaces:/home/user/ros2_humble/install/action_msgs:/home/user/ros2_humble/install/unique_identifier_msgs:/home/user/ros2_humble/install/ament_lint_common:/home/user/ros2_humble/install/ament_cmake_uncrustify:/home/user/ros2_humble/install/uncrustify_vendor:/home/user/ros2_humble/install/trajectory_msgs:/home/user/ros2_humble/install/topic_statistics_demo:/home/user/ros2_humble/install/pendulum_control:/home/user/ros2_humble/install/tlsf_cpp:/home/user/ros2_humble/install/test_tracetools:/home/user/ros2_humble/install/rqt_gui_cpp:/home/user/ros2_humble/install/rosbag2_test_common:/home/user/ros2_humble/install/ros2lifecycle_test_fixtures:/home/user/ros2_humble/install/lifecycle:/home/user/ros2_humble/install/rclcpp_lifecycle:/home/user/ros2_humble/install/logging_demo:/home/user/ros2_humble/install/image_tools:/home/user/ros2_humble/install/examples_rclcpp_minimal_subscriber:/home/user/ros2_humble/install/examples_rclcpp_minimal_composition:/home/user/ros2_humble/install/demo_nodes_cpp_native:/home/user/ros2_humble/install/rclcpp_components:/home/user/ros2_humble/install/intra_process_demo:/home/user/ros2_humble/install/examples_rclcpp_multithreaded_executor:/home/user/ros2_humble/install/examples_rclcpp_minimal_timer:/home/user/ros2_humble/install/examples_rclcpp_minimal_publisher:/home/user/ros2_humble/install/examples_rclcpp_cbg_executor:/home/user/ros2_humble/install/dummy_sensors:/home/user/ros2_humble/install/dummy_map_server:/home/user/ros2_humble/install/rclcpp:/home/user/ros2_humble/install/rcl_lifecycle:/home/user/ros2_humble/install/libstatistics_collector:/home/user/ros2_humble/install/rcl:/home/user/ros2_humble/install/rmw_implementation:/home/user/ros2_humble/install/rmw_fastrtps_dynamic_cpp:/home/user/ros2_humble/install/rmw_fastrtps_cpp:/home/user/ros2_humble/install/rmw_fastrtps_shared_cpp:/home/user/ros2_humble/install/rmw_cyclonedds_cpp:/home/user/ros2_humble/install/tracetools:/home/user/ros2_humble/install/tlsf:/home/user/ros2_humble/install/tinyxml_vendor:/home/user/ros2_humble/install/qt_gui_core:/home/user/ros2_humble/install/qt_gui_cpp:/home/user/ros2_humble/install/pluginlib:/home/user/ros2_humble/install/tinyxml2_vendor:/home/user/ros2_humble/install/tf2_eigen_kdl:/home/user/ros2_humble/install/tf2:/home/user/ros2_humble/install/test_security:/home/user/ros2_humble/install/test_rmw_implementation:/home/user/ros2_humble/install/test_rclcpp:/home/user/ros2_humble/install/test_quality_of_service:/home/user/ros2_humble/install/test_launch_testing:/home/user/ros2_humble/install/test_interface_files:/home/user/ros2_humble/install/test_communication:/home/user/ros2_humble/install/test_cli_remapping:/home/user/ros2_humble/install/test_cli:/home/user/ros2_humble/install/qt_gui_app:/home/user/ros2_humble/install/qt_gui:/home/user/ros2_humble/install/tango_icons_vendor:/home/user/ros2_humble/install/stereo_msgs:/home/user/ros2_humble/install/std_srvs:/home/user/ros2_humble/install/shape_msgs:/home/user/ros2_humble/install/map_msgs:/home/user/ros2_humble/install/sensor_msgs:/home/user/ros2_humble/install/nav_msgs:/home/user/ros2_humble/install/diagnostic_msgs:/home/user/ros2_humble/install/geometry_msgs:/home/user/ros2_humble/install/actionlib_msgs:/home/user/ros2_humble/install/std_msgs:/home/user/ros2_humble/install/statistics_msgs:/home/user/ros2_humble/install/sqlite3_vendor:/home/user/ros2_humble/install/rcl_logging_spdlog:/home/user/ros2_humble/install/spdlog_vendor:/home/user/ros2_humble/install/shared_queues_vendor:/home/user/ros2_humble/install/rviz_rendering_tests:/home/user/ros2_humble/install/rviz_rendering:/home/user/ros2_humble/install/rviz_ogre_vendor:/home/user/ros2_humble/install/rviz_assimp_vendor:/home/user/ros2_humble/install/rttest:/home/user/ros2_humble/install/rmw_connextddsmicro:/home/user/ros2_humble/install/rmw_connextdds:/home/user/ros2_humble/install/rmw_connextdds_common:/home/user/ros2_humble/install/rti_connext_dds_cmake_module:/home/user/ros2_humble/install/rosgraph_msgs:/home/user/ros2_humble/install/rosbag2_interfaces:/home/user/ros2_humble/install/rmw_dds_common:/home/user/ros2_humble/install/composition_interfaces:/home/user/ros2_humble/install/rcl_interfaces:/home/user/ros2_humble/install/pendulum_msgs:/home/user/ros2_humble/install/lifecycle_msgs:/home/user/ros2_humble/install/builtin_interfaces:/home/user/ros2_humble/install/rosidl_default_runtime:/home/user/ros2_humble/install/rosidl_default_generators:/home/user/ros2_humble/install/rosidl_generator_py:/home/user/ros2_humble/install/rosidl_typesupport_introspection_tests:/home/user/ros2_humble/install/rosidl_typesupport_cpp:/home/user/ros2_humble/install/rosidl_typesupport_introspection_cpp:/home/user/ros2_humble/install/rosidl_typesupport_c:/home/user/ros2_humble/install/rosidl_typesupport_introspection_c:/home/user/ros2_humble/install/rosidl_typesupport_fastrtps_c:/home/user/ros2_humble/install/rosidl_typesupport_fastrtps_cpp:/home/user/ros2_humble/install/rosidl_generator_cpp:/home/user/ros2_humble/install/rosidl_runtime_cpp:/home/user/ros2_humble/install/rcl_yaml_param_parser:/home/user/ros2_humble/install/rmw:/home/user/ros2_humble/install/rosidl_runtime_c:/home/user/ros2_humble/install/rosidl_generator_c:/home/user/ros2_humble/install/rosidl_typesupport_interface:/home/user/ros2_humble/install/rosidl_generator_dds_idl:/home/user/ros2_humble/install/rosidl_cmake:/home/user/ros2_humble/install/rosidl_parser:/home/user/ros2_humble/install/rosidl_adapter:/home/user/ros2_humble/install/rosbag2_tests:/home/user/ros2_humble/install/ros_environment:/home/user/ros2_humble/install/rmw_implementation_cmake:/home/user/ros2_humble/install/resource_retriever:/home/user/ros2_humble/install/class_loader:/home/user/ros2_humble/install/rcpputils:/home/user/ros2_humble/install/rcl_logging_noop:/home/user/ros2_humble/install/rcl_logging_interface:/home/user/ros2_humble/install/rcutils:/home/user/ros2_humble/install/qt_gui_py_common:/home/user/ros2_humble/install/qt_dotgraph:/home/user/ros2_humble/install/python_qt_binding:/home/user/ros2_humble/install/python_orocos_kdl_vendor:/home/user/ros2_humble/install/launch_testing_ament_cmake:/home/user/ros2_humble/install/python_cmake_module:/home/user/ros2_humble/install/pybind11_vendor:/home/user/ros2_humble/install/performance_test_fixture:/home/user/ros2_humble/install/osrf_testing_tools_cpp:/home/user/ros2_humble/install/orocos_kdl_vendor:/home/user/ros2_humble/install/mimick_vendor:/home/user/ros2_humble/install/libyaml_vendor:/home/user/ros2_humble/install/libcurl_vendor:/home/user/ros2_humble/install/keyboard_handler:/home/user/ros2_humble/install/cyclonedds:/home/user/ros2_humble/install/iceoryx_posh:/home/user/ros2_humble/install/iceoryx_hoofs:/home/user/ros2_humble/install/iceoryx_binding_c:/home/user/ros2_humble/install/ament_cmake_ros:/home/user/ros2_humble/install/ament_cmake_gmock:/home/user/ros2_humble/install/gmock_vendor:/home/user/ros2_humble/install/ament_cmake_auto:/home/user/ros2_humble/install/ament_cmake_gtest:/home/user/ros2_humble/install/gtest_vendor:/home/user/ros2_humble/install/ament_cmake_google_benchmark:/home/user/ros2_humble/install/google_benchmark_vendor:/home/user/ros2_humble/install/fastrtps:/home/user/ros2_humble/install/foonathan_memory_vendor:/home/user/ros2_humble/install/fastrtps_cmake_module:/home/user/ros2_humble/install/fastcdr:/home/user/ros2_humble/install/eigen3_cmake_module:/home/user/ros2_humble/install/console_bridge_vendor:/home/user/ros2_humble/install/ament_cmake_xmllint:/home/user/ros2_humble/install/ament_cmake_pyflakes:/home/user/ros2_humble/install/ament_cmake_pycodestyle:/home/user/ros2_humble/install/ament_cmake_pep257:/home/user/ros2_humble/install/ament_cmake_pclint:/home/user/ros2_humble/install/ament_lint_auto:/home/user/ros2_humble/install/ament_cmake:/home/user/ros2_humble/install/ament_cmake_version:/home/user/ros2_humble/install/ament_cmake_vendor_package:/home/user/ros2_humble/install/ament_cmake_pytest:/home/user/ros2_humble/install/ament_cmake_nose:/home/user/ros2_humble/install/ament_cmake_mypy:/home/user/ros2_humble/install/ament_cmake_lint_cmake:/home/user/ros2_humble/install/ament_cmake_flake8:/home/user/ros2_humble/install/ament_cmake_cpplint:/home/user/ros2_humble/install/ament_cmake_cppcheck:/home/user/ros2_humble/install/ament_cmake_copyright:/home/user/ros2_humble/install/ament_cmake_clang_tidy:/home/user/ros2_humble/install/ament_cmake_clang_format:/home/user/ros2_humble/install/ament_cmake_test:/home/user/ros2_humble/install/ament_cmake_target_dependencies:/home/user/ros2_humble/install/ament_cmake_python:/home/user/ros2_humble/install/ament_cmake_export_dependencies:/home/user/ros2_humble/install/ament_cmake_libraries:/home/user/ros2_humble/install/ament_cmake_include_directories:/home/user/ros2_humble/install/ament_cmake_gen_version_h:/home/user/ros2_humble/install/ament_cmake_export_targets:/home/user/ros2_humble/install/ament_cmake_export_link_flags:/home/user/ros2_humble/install/ament_cmake_export_interfaces:/home/user/ros2_humble/install/ament_cmake_export_libraries:/home/user/ros2_humble/install/ament_cmake_export_include_directories:/home/user/ros2_humble/install/ament_cmake_export_definitions:/home/user/ros2_humble/install/ament_cmake_core:/home/user/ros2_humble/install/ament_index_cpp:/home/user/template_ws/install/camera_v2_pkg:/home/user/template_ws/install/camera_srv_pkg:/home/user/template_ws/install/camera_pkg:/home/user/ros2_humble/install/rqt_bag_plugins:/home/user/ros2_humble/install/rqt_bag:/home/user/ros2_humble/install/ros2bag:/home/user/ros2_humble/install/tracetools_test:/home/user/ros2_humble/install/tracetools_launch:/home/user/ros2_humble/install/topic_monitor:/home/user/ros2_humble/install/tf2_tools:/home/user/ros2_humble/install/examples_tf2_py:/home/user/ros2_humble/install/tf2_ros_py:/home/user/ros2_humble/install/sros2:/home/user/ros2_humble/install/rqt_topic:/home/user/ros2_humble/install/rqt_srv:/home/user/ros2_humble/install/rqt_shell:/home/user/ros2_humble/install/rqt_service_caller:/home/user/ros2_humble/install/rqt_reconfigure:/home/user/ros2_humble/install/rqt_py_console:/home/user/ros2_humble/install/rqt_publisher:/home/user/ros2_humble/install/rqt_plot:/home/user/ros2_humble/install/rqt_action:/home/user/ros2_humble/install/rqt_msg:/home/user/ros2_humble/install/rqt_console:/home/user/ros2_humble/install/rqt:/home/user/ros2_humble/install/rqt_graph:/home/user/ros2_humble/install/rqt_gui_py:/home/user/ros2_humble/install/rqt_gui:/home/user/ros2_humble/install/ros2trace:/home/user/ros2_humble/install/ros2topic:/home/user/ros2_humble/install/ros2test:/home/user/ros2_humble/install/ros2component:/home/user/ros2_humble/install/ros2param:/home/user/ros2_humble/install/ros2lifecycle:/home/user/ros2_humble/install/ros2service:/home/user/ros2_humble/install/ros2run:/home/user/ros2_humble/install/ros2launch:/home/user/ros2_humble/install/ros2pkg:/home/user/ros2_humble/install/ros2node:/home/user/ros2_humble/install/ros2multicast:/home/user/ros2_humble/install/ros2interface:/home/user/ros2_humble/install/ros2doctor:/home/user/ros2_humble/install/ros2action:/home/user/ros2_humble/install/ros2cli:/home/user/ros2_humble/install/quality_of_service_demo_py:/home/user/ros2_humble/install/lifecycle_py:/home/user/ros2_humble/install/launch_testing_ros:/home/user/ros2_humble/install/launch_ros:/home/user/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/user/ros2_humble/install/examples_rclpy_minimal_service:/home/user/ros2_humble/install/examples_rclpy_minimal_publisher:/home/user/ros2_humble/install/examples_rclpy_minimal_client:/home/user/ros2_humble/install/examples_rclpy_minimal_action_server:/home/user/ros2_humble/install/examples_rclpy_minimal_action_client:/home/user/ros2_humble/install/examples_rclpy_guard_conditions:/home/user/ros2_humble/install/examples_rclpy_executors:/home/user/ros2_humble/install/demo_nodes_py:/home/user/ros2_humble/install/action_tutorials_py:/home/user/ros2_humble/install/ament_uncrustify:/home/user/ros2_humble/install/tracetools_trace:/home/user/ros2_humble/install/tracetools_read:/home/user/ros2_humble/install/test_tracetools_launch:/home/user/ros2_humble/install/test_launch_ros:/home/user/ros2_humble/install/sensor_msgs_py:/home/user/ros2_humble/install/rpyutils:/home/user/ros2_humble/install/rosidl_runtime_py:/home/user/ros2_humble/install/rosidl_cli:/home/user/ros2_humble/install/launch_pytest:/home/user/ros2_humble/install/launch_testing:/home/user/ros2_humble/install/launch_yaml:/home/user/ros2_humble/install/launch_xml:/home/user/ros2_humble/install/launch:/home/user/ros2_humble/install/osrf_pycommon:/home/user/ros2_humble/install/launch_testing_examples:/home/user/ros2_humble/install/domain_coordinator:/home/user/ros2_humble/install/ament_xmllint:/home/user/ros2_humble/install/ament_pyflakes:/home/user/ros2_humble/install/ament_pycodestyle:/home/user/ros2_humble/install/ament_pep257:/home/user/ros2_humble/install/ament_pclint:/home/user/ros2_humble/install/ament_package:/home/user/ros2_humble/install/ament_mypy:/home/user/ros2_humble/install/ament_lint_cmake:/home/user/ros2_humble/install/ament_flake8:/home/user/ros2_humble/install/ament_copyright:/home/user/ros2_humble/install/ament_lint:/home/user/ros2_humble/install/ament_index_python:/home/user/ros2_humble/install/ament_cpplint:/home/user/ros2_humble/install/ament_cppcheck:/home/user/ros2_humble/install/ament_clang_tidy:/home/user/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/user/template_ws/build/robot_action_pkg -- -j4 -l4
