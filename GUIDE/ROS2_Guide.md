@@ -115,7 +115,7 @@ Set up your environment by going to .bashrc and typing at the end:
 ```bash
 # source ros2
 export ROS_DOMAIN_ID=0
-source ~/ros2_humble/install/setup.bash
+source /opt/ros/humble/setup.bash
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 ```
 >:pencil: The .bashrc file is located in the ``Home`` folder as hidden file.

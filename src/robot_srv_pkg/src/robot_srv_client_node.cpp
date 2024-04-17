@@ -1,6 +1,6 @@
 //SERVICE CLIENT IN C++ WITH MY_INTERFACES
 
-/*This node is Service of "Result" and Client of "AddThreeInts"*/
+/*This node is Client of "AddThreeInts"*/
 #include <chrono>
 #include <cstdlib>
 #include <memory>

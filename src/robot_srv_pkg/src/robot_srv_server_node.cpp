@@ -1,7 +1,7 @@
 //SERVICE SERVER IN C++ WITH MY_INTERFACES
 /*ros2 service call /result_service my_interfaces/srv/Result dist:\ 4\ */
 
-/*This node is Service of "Result" and Client of "AddThreeInts"*/
+/*This node is Service of "Result"*/
 #include <chrono>
 #include <cstdlib>
 #include <memory>
