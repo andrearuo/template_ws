@@ -1,0 +1,19 @@
+[5.817s] Invoking command in '/home/user/template_ws/build/camera_srv_pkg': PYTHONPATH=/home/user/template_ws/build/camera_srv_pkg/prefix_override:/home/user/template_ws/install/camera_srv_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/template_ws/build/camera_srv_pkg/build --no-deps install_data
+[7.327s] running develop
+[8.379s] running egg_info
+[8.380s] writing camera_srv_pkg.egg-info/PKG-INFO
+[8.380s] writing dependency_links to camera_srv_pkg.egg-info/dependency_links.txt
+[8.381s] writing entry points to camera_srv_pkg.egg-info/entry_points.txt
+[8.382s] writing requirements to camera_srv_pkg.egg-info/requires.txt
+[8.382s] writing top-level names to camera_srv_pkg.egg-info/top_level.txt
+[8.387s] reading manifest file 'camera_srv_pkg.egg-info/SOURCES.txt'
+[8.389s] writing manifest file 'camera_srv_pkg.egg-info/SOURCES.txt'
+[8.402s] running build_ext
+[8.402s] Creating /home/user/template_ws/install/camera_srv_pkg/lib/python3.10/site-packages/camera-srv-pkg.egg-link (link to .)
+[8.404s] Installing camera_srv_client_node script to /home/user/template_ws/install/camera_srv_pkg/lib/camera_srv_pkg
+[8.405s] Installing camera_srv_node script to /home/user/template_ws/install/camera_srv_pkg/lib/camera_srv_pkg
+[8.405s] Installing camera_srv_server_node script to /home/user/template_ws/install/camera_srv_pkg/lib/camera_srv_pkg
+[8.406s] 
+[8.406s] Installed /home/user/template_ws/build/camera_srv_pkg
+[8.406s] running install_data
+[8.751s] Invoked command in '/home/user/template_ws/build/camera_srv_pkg' returned '0': PYTHONPATH=/home/user/template_ws/build/camera_srv_pkg/prefix_override:/home/user/template_ws/install/camera_srv_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/template_ws/build/camera_srv_pkg/build --no-deps install_data

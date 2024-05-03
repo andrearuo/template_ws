@@ -7,14 +7,18 @@ import rclpy
 from rclpy.node import Node
 from my_interfaces.srv import Result
 
+# Definitions
+node_name = "camera_srv_client_node"
+srv_client_name = "result_service"
+
 # Camera class Node creation
 class Camera_srv(Node):
     # Node initialization
     def __init__(self):
-        super().__init__('camera_srv_node')
+        super().__init__(node_name)
         
         # Client and Request creation
-        self.cli = self.create_client(Result, 'result_service')
+        self.cli = self.create_client(Result, srv_client_name)
         self.req = Result.Request()
     
     # Call Service
@@ -40,7 +44,7 @@ class Camera_srv(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = Camera_srv()
-    node.get_logger().info('camera_srv_client_node ready!')
+    node.get_logger().info(node_name + ' ready!')
 
     # Call a ROS Service Client
     node.CallService()

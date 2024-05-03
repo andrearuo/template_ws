@@ -13,6 +13,10 @@
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "my_interfaces/action/fibonacci2.hpp"           
 
+// Definitions
+std::string node_name = "Robot_action_client_node";
+std::string action_client_name = "fibonacci2";
+
 //Create a class that is a derived class of rclcpp::Node
 class Robot_action_client : public rclcpp::Node
 {
@@ -23,7 +27,7 @@ public:
 
 
   //Initialize the node
-  explicit Robot_action_client(const rclcpp::NodeOptions & node_options = rclcpp::NodeOptions()) : Node("Robot_action_client_node", node_options), goal_done_(false)
+  explicit Robot_action_client(const rclcpp::NodeOptions & node_options = rclcpp::NodeOptions()) : Node(node_name, node_options), goal_done_(false)
   {
     //Create the action client
     this->action_client_ = rclcpp_action::create_client<Fibonacci2>(
@@ -31,7 +35,7 @@ public:
       this->get_node_graph_interface(),
       this->get_node_logging_interface(),
       this->get_node_waitables_interface(),
-      "fibonacci2");
+      action_client_name);
 
     //Create a timer to send the goal calling the send_goal function
     this->timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&Robot_action_client::send_goal, this));

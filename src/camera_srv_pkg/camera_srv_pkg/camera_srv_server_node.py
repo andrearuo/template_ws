@@ -7,14 +7,18 @@ import rclpy
 from rclpy.node import Node
 from my_interfaces.srv import AddThreeInts 
 
+# Definitions
+node_name = "camera_srv_server_node"
+srv_server_name = "add_three_ints_service"
+
 # Camera class Node creation
 class Camera_srv(Node):
     # Node initialization
     def __init__(self):
-        super().__init__('camera_srv_node')
+        super().__init__(node_name)
         
         # Service creation with type, name, and callback definitions.
-        self.srv = self.create_service(AddThreeInts, 'add_three_ints_service', self.srv_callback)        
+        self.srv = self.create_service(AddThreeInts, srv_server_name, self.srv_callback)        
         
     # Service Callback
     def srv_callback(self, request, response):
@@ -29,7 +33,7 @@ class Camera_srv(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = Camera_srv()
-    node.get_logger().info('camera_srv_server_node ready!')
+    node.get_logger().info(node_name + ' ready!')
 
     rclpy.spin(node)
 

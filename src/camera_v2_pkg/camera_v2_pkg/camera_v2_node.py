@@ -7,19 +7,24 @@ from std_msgs.msg import String
 
 from my_interfaces.msg import Dist, Vel
 
+# Definitions
+node_name = "camera_v2_node"
+publisher_name = "/dist"
+subscriber_name = "/vel"
+
 # Camera class Node creation
 class Camera_v2(Node):
 
     def __init__(self):
         # Node initialization
-        super().__init__('camera_v2_node')
+        super().__init__(node_name)
         
         # Publisher creation
         # Queue size is a required QoS setting that limits the amount of queued messages if a subscriber is not receiving them fast enough
-        self.publisher_ = self.create_publisher(Dist, 'dist', 10)
+        self.publisher_ = self.create_publisher(Dist, publisher_name, 10)
         
         # Subscription creation
-        self.subscription = self.create_subscription(Vel, 'vel', self.listener_callback, 10)
+        self.subscription = self.create_subscription(Vel, subscriber_name, self.listener_callback, 10)
         self.subscription  # prevent unused variable warning
         
         # Timer creation
@@ -43,7 +48,7 @@ def main(args=None):
     rclpy.init(args=args)
     node = Camera_v2()
 
-    node.get_logger().info('camera_v2_node ready!')
+    node.get_logger().info(node_name + ' ready!')
 
 
     rclpy.spin(node)

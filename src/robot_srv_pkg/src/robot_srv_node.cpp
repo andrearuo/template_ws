@@ -13,6 +13,11 @@
 
 using namespace std::chrono_literals;
 
+// Definitions
+std::string node_name = "robot_srv_node";
+std::string srv_server_name = "result_service";
+std::string srv_client_name = "add_three_ints_service";
+
 // This serviceFunction is called when the service is called.
 void srv_callback(const std::shared_ptr<my_interfaces::srv::Result::Request> request, std::shared_ptr<my_interfaces::srv::Result::Response> response)  
 {
@@ -60,13 +65,13 @@ int main(int argc, char **argv)
   rclcpp::init(argc, argv);
 
   //Creates a node named robot_srv_node
-  std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("robot_srv_node");   
+  std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared(node_name);   
 
   //Creates a service named result_service
-  rclcpp::Service<my_interfaces::srv::Result>::SharedPtr srv = node->create_service<my_interfaces::srv::Result>("result_service",  &srv_callback);   
+  rclcpp::Service<my_interfaces::srv::Result>::SharedPtr srv = node->create_service<my_interfaces::srv::Result>(srv_server_name,  &srv_callback);   
 
   //Creates a client named add_three_ints
-  rclcpp::Client<my_interfaces::srv::AddThreeInts>::SharedPtr cli = node->create_client<my_interfaces::srv::AddThreeInts>("add_three_ints_service"); 
+  rclcpp::Client<my_interfaces::srv::AddThreeInts>::SharedPtr cli = node->create_client<my_interfaces::srv::AddThreeInts>(srv_client_name); 
 
   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "robot_srv_node ready!");        
 

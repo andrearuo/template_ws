@@ -12,6 +12,10 @@
 using namespace std::chrono_literals;
 using std::placeholders::_1;
 
+// Definitions
+std::string node_name = "robot_node";
+std::string publisher_name = "/vel";
+std::string subscriber_name = "/dist";
 
 // Node class creation
 class Robot : public rclcpp::Node
@@ -20,19 +24,25 @@ class Robot : public rclcpp::Node
     // Constructor initializes a Robot object:
     // - Creates a ROS 2 Node named "robot_node".
     // - Initializes a private member variable count_ to 0.
-    Robot() : Node("robot_node"), count_(0)
+    Robot() : Node(node_name), count_(0)
     {
       // Publisher creation (with topic name, queue size to limit messages, and topic type)
-      publisher_ = this->create_publisher<std_msgs::msg::String>("vel", 10);
+      publisher_ = this->create_publisher<std_msgs::msg::String>(publisher_name, 10);
       
       // Timer inizialization in order to execute che timer_callback() function every 500ms 
       timer_ = this->create_wall_timer(500ms, std::bind(&Robot::timer_callback, this));
       
       // Subscription creation 
-      subscription_ = this->create_subscription<std_msgs::msg::String>("dist", 10, std::bind(&Robot::topic_callback, this, _1));
+      subscription_ = this->create_subscription<std_msgs::msg::String>(subscriber_name, 10, std::bind(&Robot::topic_callback, this, _1));
     }
 
   private:
+    // Private variables declaration
+    rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    size_t count_;
+
     // Definition of the timer_callback() function.
     // This function is where the message data is set and the messages are published.
     void timer_callback()
@@ -47,12 +57,6 @@ class Robot : public rclcpp::Node
     {
       RCLCPP_INFO(this->get_logger(), "I heard, distance: '%s'", msg.data.c_str());
     }
-
-    // Private variables declaration
-    rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
-    size_t count_;
 };
 
 int main(int argc, char * argv[])

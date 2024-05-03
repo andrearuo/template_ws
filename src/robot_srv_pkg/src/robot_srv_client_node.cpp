@@ -12,10 +12,14 @@
 
 using namespace std::chrono_literals;
 
+// Definitions
+std::string node_name = "robot_srv_client_node";
+std::string srv_client_name = "add_three_ints_service";
+
 class Robot_srv_client : public rclcpp::Node {
 public:
-    Robot_srv_client() : Node("robot_srv_client_node") {
-        client_ = this->create_client<my_interfaces::srv::AddThreeInts>("add_three_ints_service");
+    Robot_srv_client() : Node(node_name) {
+        client_ = this->create_client<my_interfaces::srv::AddThreeInts>(srv_client_name);
         timer_ = this->create_wall_timer(1s, std::bind(&Robot_srv_client::timer_callback, this));
     }
 

@@ -9,18 +9,22 @@ from rclpy.node import Node
 
 from my_interfaces.action import Fibonacci2
 
+# Definitions
+node_name = "camera_action_server_node"
+action_server_name = "fibonacci2"
+
 # Camera_action_server class, which is a subclass of the Node class
 class Camera_action_server(Node):
 
     def __init__(self):
         # Node initialization
-        super().__init__('camera_action_server_node')
+        super().__init__(node_name)
         
         # Action server creation
         self._action_server = ActionServer(
             self,
             Fibonacci2,
-            'fibonacci2',
+            action_server_name,
             self.execute_callback)
     
     # Callback function to execute the action server 
@@ -51,7 +55,7 @@ class Camera_action_server(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = Camera_action_server()
-    node.get_logger().info('camera_node ready!')
+    node.get_logger().info(node_name + ' ready!')
 
     rclpy.spin(node)
 

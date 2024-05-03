@@ -10,13 +10,15 @@
 #include "rclcpp/rclcpp.hpp"            
 #include "my_interfaces/srv/result.hpp"    
 
+// Definitions
+std::string node_name = "robot_srv_server_node";
+std::string srv_server_name = "result_service";
+
 class Robot_srv_server : public rclcpp::Node {
 public:
-    Robot_srv_server() : Node("robot_srv_server_node") {
+    Robot_srv_server() : Node(node_name) {
         // Create a Service
-        srv_ = create_service<my_interfaces::srv::Result>(
-            "result_service", 
-            std::bind(&Robot_srv_server::srv_callback, this, std::placeholders::_1, std::placeholders::_2));
+        srv_ = create_service<my_interfaces::srv::Result>(srv_server_name, std::bind(&Robot_srv_server::srv_callback, this, std::placeholders::_1, std::placeholders::_2));
     }
 
 private:

@@ -6,14 +6,18 @@ from rclpy.node import Node
 
 from my_interfaces.action import Fibonacci
 
+# Definitions
+node_name = "camera_action_client_node"
+action_client_name = "fibonacci"
+
 # Camera_action_client class, which is a subclass of the Node class
 class Camera_action_client(Node):
     # Node initialization
     def __init__(self):
-        super().__init__('camera_action_client_node')
+        super().__init__(node_name)
         
         # Action client creation
-        self._action_client = ActionClient(self, Fibonacci, 'fibonacci')
+        self._action_client = ActionClient(self, Fibonacci, action_client_name)
 
     #This method waits for the action server to be available, then sends a goal to the server. 
     def send_goal(self, order):
@@ -57,7 +61,7 @@ class Camera_action_client(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = Camera_action_client()
-    node.get_logger().info('camera_node ready!')
+    node.get_logger().info(node_name + ' ready!')
 
     # Send a goal to the action server
     node.send_goal(10)

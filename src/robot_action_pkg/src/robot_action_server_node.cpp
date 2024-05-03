@@ -14,6 +14,10 @@
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "my_interfaces/action/fibonacci.hpp"            
 
+// Definitions
+std::string node_name = "robot_action_server_node";
+std::string action_server_name = "fibonacci";
+
 //Create a class that is a derived class of rclcpp::Node
 class Robot_action_server : public rclcpp::Node
 {
@@ -23,7 +27,7 @@ class Robot_action_server : public rclcpp::Node
   using GoalHandleFibonacci = rclcpp_action::ServerGoalHandle<Fibonacci>;
  
   //Initialize the node
-  explicit Robot_action_server(const rclcpp::NodeOptions & node_options = rclcpp::NodeOptions()) : Node("robot_action_server_node", node_options)
+  explicit Robot_action_server(const rclcpp::NodeOptions & node_options = rclcpp::NodeOptions()) : Node(node_name, node_options)
   {
     //Used for the action server
     using namespace std::placeholders;
@@ -34,7 +38,7 @@ class Robot_action_server : public rclcpp::Node
       this->get_node_clock_interface(),
       this->get_node_logging_interface(),
       this->get_node_waitables_interface(),
-      "fibonacci",
+      action_server_name,
       std::bind(&Robot_action_server::handle_goal, this, _1, _2),
       std::bind(&Robot_action_server::handle_cancel, this, _1),
       std::bind(&Robot_action_server::handle_accepted, this, _1));
