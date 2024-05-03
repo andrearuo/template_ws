@@ -64,7 +64,9 @@ class Robot_v2 : public rclcpp::Node
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "robot_v2_node ready!");
+  
+  // Debug info
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
 
   rclcpp::spin(std::make_shared<Robot_v2>());
   rclcpp::shutdown();

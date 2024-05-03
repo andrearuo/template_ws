@@ -73,7 +73,9 @@ int main(int argc, char **argv)
   //Creates a client named add_three_ints
   rclcpp::Client<my_interfaces::srv::AddThreeInts>::SharedPtr cli = node->create_client<my_interfaces::srv::AddThreeInts>(srv_client_name); 
 
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "robot_srv_node ready!");        
+  // Debug info
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
+
 
   // Call a ROS Service Client
   CallService(node, cli);

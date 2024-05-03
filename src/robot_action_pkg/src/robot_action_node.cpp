@@ -228,7 +228,9 @@ int main(int argc, char ** argv)
   //Initialize the ROS2 system
   rclcpp::init(argc, argv);
   
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "robot_action_node ready!");        
+  // Debug info
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
+
 
   //Create the action client
   auto action_client = std::make_shared<Robot_action>();

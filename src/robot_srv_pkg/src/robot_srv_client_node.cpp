@@ -66,6 +66,9 @@ private:
 int main(int argc, char *argv[]) {
     rclcpp::init(argc, argv);
 
+    // Debug info
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
+
     auto client = std::make_shared<Robot_srv_client>();
 
     while (!client->is_service_done()) {
