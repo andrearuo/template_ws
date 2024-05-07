@@ -1,0 +1,19 @@
+[7.218s] Invoking command in '/home/user/template_ws/build/camera_action_pkg': AMENT_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/template_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/template_ws/build/camera_action_pkg/prefix_override:/home/user/template_ws/install/camera_action_pkg/lib/python3.10/site-packages:/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/template_ws/build/camera_action_pkg/build --no-deps install_data
+[9.551s] running develop
+[10.457s] running egg_info
+[10.457s] writing camera_action_pkg.egg-info/PKG-INFO
+[10.458s] writing dependency_links to camera_action_pkg.egg-info/dependency_links.txt
+[10.458s] writing entry points to camera_action_pkg.egg-info/entry_points.txt
+[10.458s] writing requirements to camera_action_pkg.egg-info/requires.txt
+[10.458s] writing top-level names to camera_action_pkg.egg-info/top_level.txt
+[10.463s] reading manifest file 'camera_action_pkg.egg-info/SOURCES.txt'
+[10.464s] writing manifest file 'camera_action_pkg.egg-info/SOURCES.txt'
+[10.476s] running build_ext
+[10.477s] Creating /home/user/template_ws/install/camera_action_pkg/lib/python3.10/site-packages/camera-action-pkg.egg-link (link to .)
+[10.478s] Installing camera_action_client_node script to /home/user/template_ws/install/camera_action_pkg/lib/camera_action_pkg
+[10.478s] Installing camera_action_node script to /home/user/template_ws/install/camera_action_pkg/lib/camera_action_pkg
+[10.479s] Installing camera_action_server_node script to /home/user/template_ws/install/camera_action_pkg/lib/camera_action_pkg
+[10.479s] 
+[10.479s] Installed /home/user/template_ws/build/camera_action_pkg
+[10.479s] running install_data
+[10.566s] Invoked command in '/home/user/template_ws/build/camera_action_pkg' returned '0': AMENT_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/template_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/template_ws/build/camera_action_pkg/prefix_override:/home/user/template_ws/install/camera_action_pkg/lib/python3.10/site-packages:/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/template_ws/build/camera_action_pkg/build --no-deps install_data
