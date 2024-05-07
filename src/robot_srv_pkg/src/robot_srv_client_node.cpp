@@ -41,7 +41,7 @@ private:
 
         // Wait for Service to Start
         while (!srv_client_ -> wait_for_service(1s)) {
-            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Service not available, waiting again...");
+            RCLCPP_WARN(rclcpp::get_logger("CLIENT SERVER"), "\nService not available, waiting again...");
         }
 
         // Call Service
@@ -54,10 +54,11 @@ private:
 
         if (status == std::future_status::ready) {
             auto result = future.get();
-            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "\nResponse received\nsum: %ld", result.get()->sum);
+            RCLCPP_INFO(rclcpp::get_logger("CLIENT SERVER"), "\nResponse received");
+            RCLCPP_INFO(rclcpp::get_logger("CLIENT SERVER"), "sum: %ld", result.get()->sum);
             service_done_ = true;
         } else {
-            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Failed to call service add_three_ints");
+            RCLCPP_ERROR(rclcpp::get_logger("CLIENT SERVER"), "\nFailed to call service add_three_ints");
         }
 
     }
@@ -67,8 +68,8 @@ int main(int argc, char *argv[]) {
     rclcpp::init(argc, argv);
 
     // Debug info
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s CLIENT ready!", srv_client_name.c_str()); 
+    RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s ready!\033[0m", node_name.c_str());
+    RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s CLIENT ready!\033[0m", srv_client_name.c_str()); 
 
     auto srv_client = std::make_shared<Robot_srv_client>();
 

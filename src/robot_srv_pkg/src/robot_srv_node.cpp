@@ -43,7 +43,7 @@ void CallService(rclcpp::Node::SharedPtr node, rclcpp::Client<my_interfaces::srv
       
     // Wait for Service to Start
     while (!cli -> wait_for_service(1s)) {
-      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Service not available, waiting again...");
+      RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "\nService not available, waiting again...");
     }
 
     // Call Service
@@ -55,7 +55,7 @@ void CallService(rclcpp::Node::SharedPtr node, rclcpp::Client<my_interfaces::srv
       // Get and Print the Result
       RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "\nResponse received\nsum: %ld", result.get()->sum);
     } else {
-      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Failed to call service add_three_ints");    
+      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "\nFailed to call service add_three_ints");    
     }   
 }
 
@@ -74,8 +74,7 @@ int main(int argc, char **argv)
   rclcpp::Client<my_interfaces::srv::AddThreeInts>::SharedPtr cli = node->create_client<my_interfaces::srv::AddThreeInts>(srv_client_name); 
 
   // Debug info
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
-
+  RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s ready!\033[0m", node_name.c_str());
 
   // Call a ROS Service Client
   CallService(node, cli);

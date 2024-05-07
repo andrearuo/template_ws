@@ -1,0 +1,9 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/robot_srv_node.dir/src/robot_srv_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_srv_client_node.dir/src/robot_srv_client_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_srv_server_node.dir/src/robot_srv_server_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable robot_srv_server_node[0m
+[ 83%] [32m[1mLinking CXX executable robot_srv_client_node[0m
+[ 83%] Built target robot_srv_server_node
+[ 83%] Built target robot_srv_client_node
+[100%] [32m[1mLinking CXX executable robot_srv_node[0m
+[100%] Built target robot_srv_node

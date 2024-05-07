@@ -49,13 +49,13 @@ class Robot : public rclcpp::Node
     {
       auto message = std_msgs::msg::String();
       message.data = "Velocity: " + std::to_string(count_++);
-      RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+      RCLCPP_INFO(rclcpp::get_logger("PUBLISHER"), "Publishing: '%s'", message.data.c_str());
       publisher_->publish(message);
     }
 
     void topic_callback(const std_msgs::msg::String & msg) const
     {
-      RCLCPP_INFO(this->get_logger(), "I heard, distance: '%s'", msg.data.c_str());
+      RCLCPP_INFO(rclcpp::get_logger("SUBSCRIBER"), "I heard, distance: '%s'", msg.data.c_str());
     }
 };
 
@@ -64,8 +64,8 @@ int main(int argc, char * argv[])
   rclcpp::init(argc, argv);
 
   // Debug info
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
-
+  RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s ready!\033[0m", node_name.c_str());
+  
   rclcpp::spin(std::make_shared<Robot>());
   rclcpp::shutdown();
   return 0;

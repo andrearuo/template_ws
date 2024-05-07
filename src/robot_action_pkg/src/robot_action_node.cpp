@@ -229,8 +229,7 @@ int main(int argc, char ** argv)
   rclcpp::init(argc, argv);
   
   // Debug info
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
-
+  RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s ready!\033[0m", node_name.c_str());
 
   //Create the action client
   auto action_client = std::make_shared<Robot_action>();

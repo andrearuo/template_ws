@@ -53,7 +53,7 @@ class Robot_action_server : public rclcpp::Node
   //Action server functions---------------------------------------------
   rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid, std::shared_ptr<const Fibonacci::Goal> goal)
   {
-    RCLCPP_INFO(this->get_logger(), "Received goal request with order %d", goal->order);
+    RCLCPP_INFO(rclcpp::get_logger("ACTION SERVER"), "Received goal request with order %d", goal->order);
     (void)uuid;
     // Let's reject sequences that are over 9000
     if (goal->order > 9000) {
@@ -65,14 +65,14 @@ class Robot_action_server : public rclcpp::Node
   rclcpp_action::CancelResponse handle_cancel(
     const std::shared_ptr<GoalHandleFibonacci> goal_handle)
   {
-    RCLCPP_INFO(this->get_logger(), "Received request to cancel goal");
+    RCLCPP_INFO(rclcpp::get_logger("ACTION SERVER"), "Received request to cancel goal");
     (void)goal_handle;
     return rclcpp_action::CancelResponse::ACCEPT;
   }
 
   void execute(const std::shared_ptr<GoalHandleFibonacci> goal_handle)
   {
-    RCLCPP_INFO(this->get_logger(), "Executing goal");
+    RCLCPP_INFO(rclcpp::get_logger("ACTION SERVER"), "Executing goal");
     rclcpp::Rate loop_rate(1);
     const auto goal = goal_handle->get_goal();
     auto feedback = std::make_shared<Fibonacci::Feedback>();
@@ -86,14 +86,14 @@ class Robot_action_server : public rclcpp::Node
       if (goal_handle->is_canceling()) {
         result->sequence = sequence;
         goal_handle->canceled(result);
-        RCLCPP_INFO(this->get_logger(), "Goal Canceled");
+        RCLCPP_INFO(rclcpp::get_logger("ACTION SERVER"), "Goal Canceled");
         return;
       }
       // Update sequence
       sequence.push_back(sequence[i] + sequence[i - 1]);
       // Publish feedback
       goal_handle->publish_feedback(feedback);
-      RCLCPP_INFO(this->get_logger(), "Publish Feedback");
+      RCLCPP_INFO(rclcpp::get_logger("ACTION SERVER"), "Publish Feedback");
 
       loop_rate.sleep();
     }
@@ -102,7 +102,7 @@ class Robot_action_server : public rclcpp::Node
     if (rclcpp::ok()) {
       result->sequence = sequence;
       goal_handle->succeed(result);
-      RCLCPP_INFO(this->get_logger(), "Goal Succeeded");
+      RCLCPP_INFO(rclcpp::get_logger("ACTION SERVER"), "Goal Succeeded");
     }
   }
 
@@ -122,7 +122,8 @@ int main(int argc, char ** argv)
   rclcpp::init(argc, argv);
 
   // Debug info
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
+  RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s ready!\033[0m", node_name.c_str());
+  RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s SERVER ready!\033[0m", action_server_name.c_str());  
 
   //Create the action server
   auto action_server = std::make_shared<Robot_action_server>();

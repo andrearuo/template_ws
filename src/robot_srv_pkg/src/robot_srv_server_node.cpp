@@ -35,8 +35,10 @@ private:
             response->result = false;
         }
 
-        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "\nIncoming request: \nDist: %ld", request->dist);                                         
-        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "\nSending back response: \nBool: %d", response->result);
+        RCLCPP_INFO(rclcpp::get_logger("SERVICE SERVER"), "\nIncoming request:");
+        RCLCPP_INFO(rclcpp::get_logger("SERVICE SERVER"), "Dist: %ld", request->dist);                                         
+        RCLCPP_INFO(rclcpp::get_logger("SERVICE SERVER"), "\nSending back response:");
+        RCLCPP_INFO(rclcpp::get_logger("SERVICE SERVER"), "Bool: %d", response->result);
     }
 };
 
@@ -44,8 +46,8 @@ int main(int argc, char *argv[]) {
     rclcpp::init(argc, argv);
     
     // Debug info
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s SERVER ready!", srv_server_name.c_str());  
+    RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s ready!\033[0m", node_name.c_str());
+    RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s SERVER ready!\033[0m", srv_server_name.c_str());  
 
     rclcpp::spin(std::make_shared<Robot_srv_server>());
     rclcpp::shutdown();

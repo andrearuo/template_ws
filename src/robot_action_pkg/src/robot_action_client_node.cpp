@@ -57,12 +57,12 @@ public:
 
     //Waits for the action server to come up.
     if (!this->action_client_) {
-      RCLCPP_ERROR(this->get_logger(), "Action client not initialized");
+      RCLCPP_ERROR(rclcpp::get_logger("ACTION CLIENT"), "\nAction client not initialized");
     }
 
     //Cancel request after 10 seconds
     /*if (!this->action_client_->wait_for_action_server(std::chrono::seconds(10))) {
-      RCLCPP_ERROR(this->get_logger(), "Action server not available after waiting");
+      RCLCPP_ERROR(rclcpp::get_logger("ACTION CLIENT"), "\nAction server not available after waiting");
       this->goal_done_ = true;
       return;
     }*/
@@ -70,7 +70,7 @@ public:
     //Instantiates a new Fibonacci::Goal
     auto goal_msg = Fibonacci2::Goal();
     goal_msg.order2 = 10;
-    RCLCPP_INFO(this->get_logger(), "Sending goal");
+    RCLCPP_INFO(rclcpp::get_logger("ACTION CLIENT"), "Sending goal");
 
     //Sets the response, feedback, and result callbacks
     auto send_goal_options = rclcpp_action::Client<Fibonacci2>::SendGoalOptions();
@@ -95,9 +95,9 @@ private:
   void goal_response_callback(GoalHandleFibonacci2::SharedPtr goal_handle)
   {
     if (!goal_handle) {
-      RCLCPP_ERROR(this->get_logger(), "Goal was rejected by server");
+      RCLCPP_ERROR(rclcpp::get_logger("ACTION CLIENT"), "\nGoal was rejected by server");
     } else {
-      RCLCPP_INFO(this->get_logger(), "Goal accepted by server, waiting for result");
+      RCLCPP_INFO(rclcpp::get_logger("ACTION CLIENT"), "\nGoal accepted by server, waiting for result");
     }
   }
 
@@ -105,7 +105,7 @@ private:
   //Any feedback to the client will be handled by the feedback_callback
   void feedback_callback(GoalHandleFibonacci2::SharedPtr, const std::shared_ptr<const Fibonacci2::Feedback> feedback)
   {
-    RCLCPP_INFO(this->get_logger(),"Next number in sequence received: %" PRId32, feedback->partial_sequence2.back());
+    RCLCPP_INFO(rclcpp::get_logger("ACTION CLIENT"),"Next number in sequence received: %" PRId32, feedback->partial_sequence2.back());
   }
 
   //When the server is finished processing, it will return a result to the client. 
@@ -117,19 +117,19 @@ private:
       case rclcpp_action::ResultCode::SUCCEEDED:
         break;
       case rclcpp_action::ResultCode::ABORTED:
-        RCLCPP_ERROR(this->get_logger(), "Goal was aborted");
+        RCLCPP_ERROR(rclcpp::get_logger("ACTION CLIENT"), "\nGoal was aborted");
         return;
       case rclcpp_action::ResultCode::CANCELED:
-        RCLCPP_ERROR(this->get_logger(), "Goal was canceled");
+        RCLCPP_ERROR(rclcpp::get_logger("ACTION CLIENT"), "\nGoal was canceled");
         return;
       default:
-        RCLCPP_ERROR(this->get_logger(), "Unknown result code");
+        RCLCPP_ERROR(rclcpp::get_logger("ACTION CLIENT"), "\nUnknown result code");
         return;
     }
 
-    RCLCPP_INFO(this->get_logger(), "Result received");
+    RCLCPP_INFO(rclcpp::get_logger("ACTION CLIENT"), "Result received");
     for (auto number : result.result->sequence2) {
-      RCLCPP_INFO(this->get_logger(), "%" PRId32, number);
+      RCLCPP_INFO(rclcpp::get_logger("ACTION CLIENT"), "%" PRId32, number);
     }
     //---------------------------------------------------------------------
   }
@@ -142,7 +142,8 @@ int main(int argc, char ** argv)
   rclcpp::init(argc, argv);
   
   // Debug info
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
+  RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s ready!\033[0m", node_name.c_str());
+  RCLCPP_INFO(rclcpp::get_logger(""), "\033[1;32m%s CLIENT ready!\033[0m", action_client_name.c_str()); 
 
   //Create the action client
   auto action_client = std::make_shared<Robot_action_client>();
