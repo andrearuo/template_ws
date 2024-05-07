@@ -54,7 +54,7 @@ private:
 
         if (status == std::future_status::ready) {
             auto result = future.get();
-            RCLCPP_INFO(rclcpp::get_logger("CLIENT SERVER"), "\nResponse received");
+    	    RCLCPP_INFO(rclcpp::get_logger("SERVICE CLIENT"), "\n\033[1;32mResponse received:\033[0m");
             RCLCPP_INFO(rclcpp::get_logger("CLIENT SERVER"), "sum: %ld", result.get()->sum);
             service_done_ = true;
         } else {

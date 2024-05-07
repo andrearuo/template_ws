@@ -35,7 +35,7 @@ private:
             response->result = false;
         }
 
-        RCLCPP_INFO(rclcpp::get_logger("SERVICE SERVER"), "\nIncoming request:");
+	RCLCPP_INFO(rclcpp::get_logger("SERVICE SERVER"), "\033[1;32mIncoming request:\033[0m");
         RCLCPP_INFO(rclcpp::get_logger("SERVICE SERVER"), "Dist: %ld", request->dist);                                         
         RCLCPP_INFO(rclcpp::get_logger("SERVICE SERVER"), "\nSending back response:");
         RCLCPP_INFO(rclcpp::get_logger("SERVICE SERVER"), "Bool: %d", response->result);
