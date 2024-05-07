@@ -1,0 +1,17 @@
+[5.219s] Invoking command in '/home/user/template_ws/build/camera_v2_pkg': AMENT_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/template_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/template_ws/build/camera_v2_pkg/prefix_override:/home/user/template_ws/install/camera_v2_pkg/lib/python3.10/site-packages:/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/template_ws/build/camera_v2_pkg/build --no-deps install_data
+[7.298s] running develop
+[8.357s] running egg_info
+[8.369s] writing camera_v2_pkg.egg-info/PKG-INFO
+[8.369s] writing dependency_links to camera_v2_pkg.egg-info/dependency_links.txt
+[8.370s] writing entry points to camera_v2_pkg.egg-info/entry_points.txt
+[8.370s] writing requirements to camera_v2_pkg.egg-info/requires.txt
+[8.370s] writing top-level names to camera_v2_pkg.egg-info/top_level.txt
+[8.374s] reading manifest file 'camera_v2_pkg.egg-info/SOURCES.txt'
+[8.386s] writing manifest file 'camera_v2_pkg.egg-info/SOURCES.txt'
+[8.411s] running build_ext
+[8.411s] Creating /home/user/template_ws/install/camera_v2_pkg/lib/python3.10/site-packages/camera-v2-pkg.egg-link (link to .)
+[8.413s] Installing camera_v2_node script to /home/user/template_ws/install/camera_v2_pkg/lib/camera_v2_pkg
+[8.413s] 
+[8.414s] Installed /home/user/template_ws/build/camera_v2_pkg
+[8.414s] running install_data
+[8.534s] Invoked command in '/home/user/template_ws/build/camera_v2_pkg' returned '0': AMENT_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/template_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/template_ws/build/camera_v2_pkg/prefix_override:/home/user/template_ws/install/camera_v2_pkg/lib/python3.10/site-packages:/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/template_ws/build/camera_v2_pkg/build --no-deps install_data

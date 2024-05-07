@@ -20,14 +20,14 @@ class Camera_srv(Node):
         super().__init__(node_name)
         
         # Service creation with type, name, and callback definitions.
-        self.srv = self.create_service(AddThreeInts, srv_server_name, self.srv_callback)        
+        self.srv_server = self.create_service(AddThreeInts, srv_server_name, self.srv_server_callback)        
         
         # Client and Request creation
-        self.cli = self.create_client(Result, srv_client_name)
-        self.req = Result.Request()
+        self.srv_client = self.create_client(Result, srv_client_name)
+        self.srv_client_req = Result.Request()
 
     # Service Callback
-    def srv_callback(self, request, response):
+    def srv_server_callback(self, request, response):
         response.sum = request.a + request.b + request.c                                                  
         self.get_logger().info('\nIncoming request\na: %d b: %d c: %d' % (request.a, request.b, request.c)) 
         self.get_logger().info('\nSending response\nsum: %d' % (response.sum)) 
@@ -36,21 +36,21 @@ class Camera_srv(Node):
     
     # Call Service
     def CallService(self):
-        self.req.dist = 12
+        self.srv_client_req.dist = 12
 
         # Wait For Service
-        while not self.cli.wait_for_service(timeout_sec=1.0):
+        while not self.srv_client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Service not available, waiting again...')
 
         # Call Service - Synchronous (Blocking - Critical)
-        # response = self.cli.call(request)
+        # response = self.srv_client.call(request)
         # self.get_logger().info(f'Response: {response}')
 
         # Call Service - Asynchronous
-        self.future = self.cli.call_async(self.req)
+        self.future = self.srv_client.call_async(self.srv_client_req)
         rclpy.spin_until_future_complete(self, self.future)
-        response_req = self.future.result()
-        self.get_logger().info('\nResponse received\nBool: %s' % (response_req.result)) 
+        response_srv_client_req = self.future.result()
+        self.get_logger().info('\nResponse received\nBool: %s' % (response_srv_client_req.result)) 
 
 
 

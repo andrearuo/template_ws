@@ -1,0 +1,19 @@
+[5.198s] Invoking command in '/home/user/template_ws/build/camera_srv_pkg': AMENT_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/template_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/template_ws/build/camera_srv_pkg/prefix_override:/home/user/template_ws/install/camera_srv_pkg/lib/python3.10/site-packages:/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/template_ws/build/camera_srv_pkg/build --no-deps install_data
+[7.155s] running develop
+[8.521s] running egg_info
+[8.522s] writing camera_srv_pkg.egg-info/PKG-INFO
+[8.523s] writing dependency_links to camera_srv_pkg.egg-info/dependency_links.txt
+[8.524s] writing entry points to camera_srv_pkg.egg-info/entry_points.txt
+[8.525s] writing requirements to camera_srv_pkg.egg-info/requires.txt
+[8.525s] writing top-level names to camera_srv_pkg.egg-info/top_level.txt
+[8.530s] reading manifest file 'camera_srv_pkg.egg-info/SOURCES.txt'
+[8.541s] writing manifest file 'camera_srv_pkg.egg-info/SOURCES.txt'
+[8.564s] running build_ext
+[8.564s] Creating /home/user/template_ws/install/camera_srv_pkg/lib/python3.10/site-packages/camera-srv-pkg.egg-link (link to .)
+[8.566s] Installing camera_srv_client_node script to /home/user/template_ws/install/camera_srv_pkg/lib/camera_srv_pkg
+[8.566s] Installing camera_srv_node script to /home/user/template_ws/install/camera_srv_pkg/lib/camera_srv_pkg
+[8.566s] Installing camera_srv_server_node script to /home/user/template_ws/install/camera_srv_pkg/lib/camera_srv_pkg
+[8.567s] 
+[8.567s] Installed /home/user/template_ws/build/camera_srv_pkg
+[8.567s] running install_data
+[8.956s] Invoked command in '/home/user/template_ws/build/camera_srv_pkg' returned '0': AMENT_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/template_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/template_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/template_ws/build/camera_srv_pkg/prefix_override:/home/user/template_ws/install/camera_srv_pkg/lib/python3.10/site-packages:/home/user/template_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/template_ws/build/camera_srv_pkg/build --no-deps install_data

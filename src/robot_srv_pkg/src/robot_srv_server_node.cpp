@@ -18,14 +18,14 @@ class Robot_srv_server : public rclcpp::Node {
 public:
     Robot_srv_server() : Node(node_name) {
         // Create a Service
-        srv_ = create_service<my_interfaces::srv::Result>(srv_server_name, std::bind(&Robot_srv_server::srv_callback, this, std::placeholders::_1, std::placeholders::_2));
+        srv_server_ = create_service<my_interfaces::srv::Result>(srv_server_name, std::bind(&Robot_srv_server::srv_server_callback, this, std::placeholders::_1, std::placeholders::_2));
     }
 
 private:
-    rclcpp::Service<my_interfaces::srv::Result>::SharedPtr srv_;
+    rclcpp::Service<my_interfaces::srv::Result>::SharedPtr srv_server_;
 
     // This serviceFunction is called when the service is called.
-    void srv_callback(const std::shared_ptr<my_interfaces::srv::Result::Request> request,const std::shared_ptr<my_interfaces::srv::Result::Response> response) {
+    void srv_server_callback(const std::shared_ptr<my_interfaces::srv::Result::Request> request,const std::shared_ptr<my_interfaces::srv::Result::Response> response) {
         if (request->dist > 10)
         {
             response->result = true;
@@ -45,6 +45,7 @@ int main(int argc, char *argv[]) {
     
     // Debug info
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s ready!", node_name.c_str());
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%s SERVER ready!", srv_server_name.c_str());  
 
     rclcpp::spin(std::make_shared<Robot_srv_server>());
     rclcpp::shutdown();

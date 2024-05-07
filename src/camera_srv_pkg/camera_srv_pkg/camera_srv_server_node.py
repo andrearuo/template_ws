@@ -18,10 +18,10 @@ class Camera_srv(Node):
         super().__init__(node_name)
         
         # Service creation with type, name, and callback definitions.
-        self.srv = self.create_service(AddThreeInts, srv_server_name, self.srv_callback)        
+        self.srv_server = self.create_service(AddThreeInts, srv_server_name, self.srv_server_callback)        
         
     # Service Callback
-    def srv_callback(self, request, response):
+    def srv_server_callback(self, request, response):
         response.sum = request.a + request.b + request.c                                                  
         self.get_logger().info('\nIncoming request\na: %d b: %d c: %d' % (request.a, request.b, request.c)) 
         self.get_logger().info('\nSending response\nsum: %d' % (response.sum)) 
