@@ -38,7 +38,8 @@
         2. [Python package](#py_pkg)
     3. [Costumize a Package](#costumize_pkg)
     4. [Build Workspace](#build_ws)
-
+    5. [Add personal / external library](#library)
+    6. [Source workspace](#source)
 
 5. [Create a Publisher and Subscriber](#pubsub)
     1. [C++ Publisher and Subscriber](#cpp_pubsub)
@@ -1065,6 +1066,65 @@ colcon build --symlink-install
 >:pencil: Some notes:
 > - If you do not want to build a specific package place an empty file named ``COLCON_IGNORE`` inside the package folder;
 > - If you want to build a specific package, you can use ``colcon build --packages-select <my_package>``.
+
+## Add personal / external library <a name="library"></a>
+If you want to add a personal or external library to your package, you need to add the cpp files in the package folder and the header files in the include folder in a dedicated folder.
+
+For example, you shoud have the following structure:
+```bash
+<your_package>_pkg
+    ├── include
+    │   └── <package_name>
+    │   └── <library_name>
+    │       └── <fist_file_library>.h
+    │       └── <second_file_library>.h
+    |       └── ... 
+    ├── src
+    │   └── <your_node>_node.cpp
+    |   └── <library_name>
+    │       └── <fist_file_library>.cpp
+    │       └── <second_file_library>.cpp
+    |       └── ...
+    ├── CMakeLists.txt
+    ├── package.xml
+```
+
+Then, in the ``CMakeLists.txt`` file, you need to add the following lines:
+```make
+# <-- Insert here your dependences -->
+...
+...
+#  <-- ___________________________ --> 
+#************************************************************
+# Building your library
+add_library(<library_name>
+  src/<library_name>/<fist_file_library>.cpp
+  src/<library_name>/<second_file_library>.cpp
+  src/<library_name>/<...>.cpp  
+)
+
+# Include headers
+include_directories(include/<library_name>)
+#************************************************************
+
+# Insert here your executables and ament_target_dependencies
+add_executable(<your_node>_node src/<your_node>_node.cpp)
+ament_target_dependencies(<your_node>_node rclcpp rclcpp_action rclcpp_components std_msgs ...)
+target_link_libraries (<your_node>_node <library_name>)
+```
+
+## Source workspace <a name="source"></a>
+Remember that every time you open a new terminal and you want run your node, you need to source the workspace. To do this, run the following command:
+```bash
+source <workspace_name>_ws/install/setup.bash
+```
+
+otherwise you can add the following line to the ``.bashrc`` file:
+```bash
+source ~/<workspace_name>_ws/install/setup.bash
+```
+and everytime you open a new terminal, the workspace will be sourced.
+
 
 <div style="page-break-after: always;"></div>
 
