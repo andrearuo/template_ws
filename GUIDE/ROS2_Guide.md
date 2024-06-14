@@ -30,6 +30,7 @@
     6. [rqt_console](#rqt_console)
     7. [ros2 bag](#ros2_bag)
     8. [Verification and installation packages](#verification)
+    9. [Clock](#Clock)
 
 4. [Workspace and Packages](#WaP)
     1. [Create a Workspace](#create_ws)
@@ -448,8 +449,10 @@ def generate_launch_description():
         Node(
             package='demo_nodes_cpp',
             executable='talker',
+            output="screen",                # To see the output of the node
             parameters=[{
                 'serial_port': '/dev/ttyUSB0',
+                'use_sim_time': True,       # To set use_sim_time parameter
             }],
             remapping=[
                 ('\scan', '\scan1'),
@@ -508,6 +511,11 @@ The command __ros2 run__ launches an executable from a package.
 ```bash
 ros2 run <package_name> <executable_name>
 ```
+>:pencil: If you want to run a node with a parameter, you can use the ``----ros-args -p`` option. For example:
+>```bash
+>ros2 run <package_name> <executable_name> --ros-args -p my_param:=my_value
+>#ros2 run cbf-stl_pkg input_node --ros-args -p use_sim_time:=true 
+>```
 
 ### 2. ros2 node list
 __ros2 node list__ will show you the names of all running nodes. This is especially useful when you want to interact with a node, or when you have a system running many nodes and need to keep track of them.
@@ -906,6 +914,29 @@ Install a specific spackage:
 sudo apt install ros-humble-<packageName>
 ```
 
+## Clock <a name="Clock"></a>
+The __clock__ is a fundamental part of ROS 2. It is used to provide a common time reference for all nodes in the system. The clock is used to timestamp messages, log messages, and to schedule timers.
+There are different types of clocks, in C++ you can use the following part of code to check the differences:
+```cpp
+RCLCPP_INFO_STREAM(get_logger(), "now(): " << now().seconds());
+RCLCPP_INFO_STREAM(get_logger(), "rclcpp::Clock{}.now(): " << rclcpp::Clock{}.now().seconds());
+RCLCPP_INFO_STREAM(get_logger(), "rclcpp::Clock{RCL_ROS_TIME}.now(): " << rclcpp::Clock{RCL_ROS_TIME}.now().seconds());
+RCLCPP_INFO_STREAM(get_logger(), "rclcpp::Clock{RCL_SYSTEM_TIME}.now(): " << rclcpp::Clock{RCL_SYSTEM_TIME}.now().seconds());
+RCLCPP_INFO_STREAM(get_logger(), "rclcpp::Clock{RCL_STEADY_TIME}.now(): " << rclcpp::Clock{RCL_STEADY_TIME}.now().seconds());
+```
+
+If you want to use the simulation clock you neeed to enable ``use_sim_time`` parameter. You can do this by running the following command:
+```bash
+ros2 run <package_name> <executable_name> --ros-args -p use_sim_time:=true
+```
+or adding it to the launch file.
+
+Furthermore, if you want to use the simulation clock you need to use the following timer in C++:
+```cpp
+timer_compute_ = rclcpp::create_timer(this, this->get_clock(), std::chrono::milliseconds(20), std::bind(&Cbf_stl::timer_compute_callback, this));
+//instead of:
+//timer_compute_ = this->create_wall_timer(20ms, std::bind(&Cbf_stl::timer_compute_callback, this));
+```
 <div style="page-break-after: always;"></div>
 
 # Workspace and Packages <a name="WaP"></a>
@@ -1140,6 +1171,21 @@ ros2 pkg create --build-type ament_cmake --license Apache-2.0 --node-name <node_
 
 ### 2. Create a C++ publisher and Subscriber
 Go into ``template_ws`` in which you can find a ``robot_pkg`` package. His node, ``robot_node``, is a simple publisher and subscriber. You can use it as a template to create your own publisher and subscriber.
+
+>:pencil: If you want to know the timestamp of the message, you can use the following code in the subscriber callback function:
+>```cpp
+>int old_sec = 0;
+>int old_nsec = 0;
+> void callback(const std_msgs::msg::String::SharedPtr msg){
+>   int new_sec = msg->header.stamp.sec;
+>   int new_nsec = msg->header.stamp.nanosec;
+>   RCLCPP_INFO(rclcpp::get_logger("SUBSCRIBER ODOM"), "Received at: %d sec", msg->header.stamp.sec);
+>   RCLCPP_INFO(rclcpp::get_logger("SUBSCRIBER ODOM"), "Received at: %d nanosec", msg->header.stamp.nanosec);
+>   RCLCPP_INFO(rclcpp::get_logger("SUBSCRIBER ODOM"), "Time difference: %d sec and %d nanosec", diff_sec, diff_nsec);
+>   old_sec = new_sec;
+>   old_nsec = new_nsec;
+>}
+>```
 
 ### 3. Add dependencies
 You need to add the dependencies of your package in the ``package.xml`` and in the ``CMakeLists.txt`` files. Go into ``template_ws`` in which you can find a ``robot_pkg`` package. His ``package.xml`` and ``CMakeLists.txt`` files are a good example to add the dependencies.
